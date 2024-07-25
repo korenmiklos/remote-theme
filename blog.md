@@ -10,7 +10,13 @@ blog:
     url: /blog/
 
 about_url: "/about/"
-courses_url: "#"
+
+courses:
+  heading: Browse courses
+  copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor.
+  button:
+    text: To courses
+    url: "#"
 
 cta:
   heading: Browse publications

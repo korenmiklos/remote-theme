@@ -1876,6 +1876,10 @@ select {
   height: 100%;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -3041,6 +3045,10 @@ select {
 }
 
 @media (min-width: 768px) {
+  .md\:order-last {
+    order: 9999;
+  }
+
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -3052,6 +3060,14 @@ select {
 
   .md\:ml-auto {
     margin-left: auto;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
   }
 
   .md\:block {
@@ -3147,6 +3163,10 @@ select {
 
   .md\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .md\:pl-12 {
+    padding-left: 3rem;
   }
 
   .md\:text-center {
@@ -3389,6 +3409,10 @@ select {
 
   .xl\:pr-28 {
     padding-right: 7rem;
+  }
+
+  .xl\:pl-28 {
+    padding-left: 7rem;
   }
 }
 
