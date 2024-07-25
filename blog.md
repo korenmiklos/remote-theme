@@ -1,6 +1,6 @@
 ---
-layout: courses
-title: Courses
+layout: blog
+title: Blog
 
 software:
   heading: Download software
