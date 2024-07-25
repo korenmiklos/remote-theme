@@ -1,0 +1,17 @@
+# English (default)
+en:
+  name: "Name"
+  email: "Email"
+  message: "Message"
+  send_message: "Send message"
+  message_sent: "The message has been successfully sent!"
+  phone: "Phone"
+  previous: "Previous"
+  next: "Next"
+  no_results: "No results found"
+  search: "Search for..."
+  toc: "On this page"
+  created: "Created"  
+  updated: "Updated"  
+  share: "Share"  
+    

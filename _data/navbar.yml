@@ -1,0 +1,17 @@
+---
+- text: Publications
+  url: "/publications/"
+- text: CV
+  url: "/cv/"
+- text: More
+  dropdown:
+  - text: Project
+    url: "/project/"
+  - text: Courses
+    url: "/courses/"
+  - text: Software
+    url: "/software/"
+  - text: Blog
+    url: "#"
+  - text: Codedthinking Story
+    url: "#"

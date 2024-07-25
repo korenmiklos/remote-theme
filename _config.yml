@@ -1,0 +1,77 @@
+---
+title: Koren.mk
+description: Lorem ipsum dolorem
+url: 
+baseurl: 
+lang: en
+logo: /uploads/koren-mk.svg
+logo_mark: /uploads/logo-mark.svg
+permalink: "/:title/"
+
+social:
+  facebook: "#"
+  twitter: "#"
+  instagram: "#"
+  linkedin: "#"
+
+copyright: "&copy; 2023 Coded Thinking OÜ"
+
+google_analytics: 
+
+search: courses # options: blog | courses | publications
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+- jekyll-seo-tag
+
+exclude:
+- vendor
+- ".bundle"
+- ".sass-cache"
+- config
+- Gemfile
+- Gemfile.lock
+- node_modules
+- log
+- tmp
+- Rakefile
+- package.json
+- CHANGELOG
+- LICENSE
+- README
+- "/docs"
+
+livereload: true
+
+collections:
+  publications:
+    output: true
+    permalink: /:name
+  courses:
+    output: true
+    permalink: /:name
+  blog:
+    output: true
+    permalink: /:name
+  software:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+  - scope:
+      path: ""
+      type: courses
+    values:
+      layout: course
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: post
