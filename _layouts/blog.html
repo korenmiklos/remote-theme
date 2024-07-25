@@ -98,14 +98,14 @@ layout: default
         </a>  
       </div>
       <div>
-        <div class="swiper overflow-hidden" aria-label="Slider">
+        <div class="swiper overflow-hidden -mr-6 md:mr-0 relative" aria-label="Slider">
           <div class="swiper-wrapper flex">
             {% assign posts = site.courses | sort: 'date' | reverse %}
             {% for post in posts limit: 6 %}
               {% include card-course.html %}
             {% endfor %}
           </div>
-          <div class="flex justify-between md:justify-center items-center mt-12 md:mt-16 space-x-4 max-w-2xl mx-auto">
+          <div class="flex justify-between md:justify-center items-center mt-12 md:mt-16 space-x-4 max-w-2xl mx-auto pr-6 md:pr-0">
             <div class="swiper-button-prev md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 text-red">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
@@ -118,6 +118,7 @@ layout: default
               </svg>        
             </div>
           </div>
+          <div class="absolute top-0 right-0 bottom-16 w-1/5 bg-gradient-to-r from-transparent to-white/75 lg:hidden"></div>
         </div>
         <script>
           var swiper = new Swiper(".swiper", {
