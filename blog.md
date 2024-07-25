@@ -9,7 +9,12 @@ blog:
     text: More
     url: /blog/
 
-about_url: "/about/"
+about:
+  heading: The Coded Thinking story
+  copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor.
+  button:
+    text: Read now
+    url: "/about/"
 
 courses:
   heading: Browse courses
