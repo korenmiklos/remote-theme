@@ -150,10 +150,8 @@ layout: default
 
 <div class="relative overflow-hidden">
   <div class="absolute inset-0">
-    <img class="sm:hidden h-auto w-full absolute top-0 left-0 right-0" src="{{ '/uploads/koren-mk-hero-sm-1.svg' | absolute_url }}" alt="{{ page.hero.heading | escape }}">
-    <img class="sm:hidden absolute top-1/2 left-0" src="{{ '/uploads/koren-mk-hero-sm-2.svg' | absolute_url }}" alt="{{ page.hero.heading | escape }}">
-    <img class="sm:hidden h-auto w-full absolute bottom-0 left-0 right-0" src="{{ '/uploads/koren-mk-hero-sm-3.svg' | absolute_url }}" alt="{{ page.hero.heading | escape }}">
-    <img class="hidden sm:block object-cover object-center h-full w-full" src="{{ '/uploads/koren-mk-hero.svg' | absolute_url }}" alt="{{ page.hero.heading | escape }}">
+    <img class="md:hidden object-cover object-center h-full w-full" src="{{ '/uploads/cta-sm.svg' | absolute_url }}" alt="{{ page.hero.heading | escape }}">
+    <img class="hidden md:block object-cover object-center h-full w-full" src="{{ '/uploads/koren-mk-hero.svg' | absolute_url }}" alt="{{ page.hero.heading | escape }}">
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-28 pb-36 lg:pt-20 text-center relative">
     {% if page.cta.superheading and page.cta.superheading != empty %}
