@@ -2528,6 +2528,14 @@ select {
   padding-bottom: 1rem;
 }
 
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -3330,6 +3338,10 @@ select {
 
   .lg\:pr-28 {
     padding-right: 7rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-6xl {
