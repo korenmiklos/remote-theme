@@ -2203,6 +2203,12 @@ select {
   margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -2272,6 +2278,10 @@ select {
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-gray-200 {
@@ -2508,6 +2518,14 @@ select {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-left {
@@ -2835,6 +2853,10 @@ select {
   color: rgb(151 149 181 / var(--tw-text-opacity));
 }
 
+.last\:border-none:last-child {
+  border-style: none;
+}
+
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -3115,6 +3137,10 @@ select {
     padding-top: 6rem;
   }
 
+  .md\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -3298,8 +3324,24 @@ select {
     padding-top: 1.5rem;
   }
 
+  .lg\:pr-32 {
+    padding-right: 8rem;
+  }
+
+  .lg\:pr-28 {
+    padding-right: 7rem;
+  }
+
   .lg\:text-6xl {
     font-size: 3.5rem;
+  }
+
+  .lg\:last\:border-b:last-child {
+    border-bottom-width: 1px;
+  }
+
+  .last\:lg\:border-b:last-child {
+    border-bottom-width: 1px;
   }
 
   .lg\:prose-headings\:scroll-mt-\[5rem\] :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~="not-prose"],[class~="not-prose"] *))) {

@@ -2,12 +2,14 @@
 layout: blog
 title: Blog
 
-software:
-  heading: Download software
+blog:
+  heading: Browse blogposts
   copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor.
   button:
-    text: More software
-    url: /software/
+    text: More
+    url: /blog/
 
+about_url: "/about/"
 courses_url: "#"
+publications_url: "#"
 ---
