@@ -3,15 +3,15 @@ layout: default
 ---
 
 <div class="mx-auto max-w-7xl px-6 lg:px-8 py-11 lg:pt-14 lg:pb-32">
-  <div class="flex flex-col lg:flex-row gap-16 lg:gap-20 xl:gap-40">
-    <div class="flex-1">
+  <div class="flex flex-col lg:flex-row gap-16 lg:gap-20 xl:gap-32">
+    <div class="lg:w-2/3 xl:w-[60%]">
       <a href="{{ '/' | relative_url }}" class="text-red inline-block">&larr; Back to publications</a>
       <h1 class="text-5xl lg:text-6xl text-blue font-bold leading-[1.15] mt-7">{{ page.title }}</h1>
       <time datetime="{{ page.date | date_to_xmlschema }}" class="text-gray-2 mt-1">
         {% assign date_format = site.date_format | default: "%B %Y" %}
         {{ page.date | date: date_format }}
       </time>
-      <div class="mt-12 lg:mt-16 prose max-w-none prose-slate prose-headings:font-bold prose-a:text-red hover:prose-a:text-red">
+      <div class="mt-12 lg:mt-16 prose max-w-none prose-slate prose-headings:font-bold prose-h2:text-red prose-h2:uppercase prose-h2:text-3xl prose-pre:bg-blue prose-img:rounded-md prose-a:text-red hover:prose-a:text-red">
         <p>Abstract</p>
         {{ content }}
         <p class="mt-10">Please cite as</p>
@@ -51,14 +51,14 @@ layout: default
         <path d="M269.878 197.061L260.878 197.061C260.05 197.061 259.378 196.389 259.378 195.561L259.378 188.061C259.378 187.232 260.05 186.561 260.878 186.561L268.378 186.561C269.207 186.561 269.878 187.232 269.878 188.061L269.878 197.061Z" fill="#E61E25"/>
       </svg>
     </div>
-    <div class="lg:w-1/3 xl:w-[30%] lg:mt-14">
+    <div class="flex-1 lg:mt-14">
       <h3 class="text-blue uppercase font-bold text-3xl mb-16">Project team</h3>
       <div class="space-y-7">
         {% for person in page.team %}
           {% for item in site.data.team %}
             {% if item.username == person %}
               <div class="flex space-x-5 items-center">
-                <img class="rounded w-24 h-auto" src="{{ item.image | absolute_url }}" alt="{{ item.name }}">
+                <img class="rounded w-[6.25rem] h-auto" src="{{ item.image | absolute_url }}" alt="{{ item.name }}">
                 <div>
                   <h4 class="font-bold text-lg text-red">{{ item.name }}</h4>
                   <p class="text-gray-2">{{ item.title }}</p>

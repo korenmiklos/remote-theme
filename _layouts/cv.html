@@ -130,7 +130,7 @@ layout: default
       {% endfor %}
 
       <h3 class="text-gray-1 uppercase font-bold text-3xl mt-12">Top articles</h3>
-      {% assign filtered_blog = site.blog | sort: 'date' | reverse %}
+      {% assign filtered_blog = site.posts | sort: 'date' | reverse %}
       {% for post in filtered_blog %}
         {% if post.tags contains 'top' %}
           <div class="mt-7">

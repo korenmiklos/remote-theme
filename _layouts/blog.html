@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign posts = site.blog | sort: 'date' | reverse %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
 <div class="relative overflow-hidden">
   <div class="absolute inset-0">
     <img class="md:hidden object-cover object-center h-full w-full" src="{{ '/uploads/blog-hero-sm.png' | absolute_url }}" alt="{{ page.hero.heading | escape }}">
