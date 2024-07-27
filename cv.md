@@ -68,7 +68,15 @@ accordion_2:
   - "Koren, Miklós, and Krisztina Orbán, 2023. “The Macroeconomics of Managers: Supply, Selection, and Competition .”"
   - "Koren, Miklós, and Krisztina Orbán, 2023. “The Macroeconomics of Managers: Supply, Selection, and Competition .”"
 
-
+contact:
+  heading: Office Contact Information
+  items:
+  - Central European University
+  - Department of Economics and Business
+  - Quellenstrasse 51, 1100 Vienna, Austria
+  - "Phone: [+43 1 25 230 2212](tel:+431252302212) (office)"
+  - "E-mail: [korenm@ceu.edu](mailto:korenm@ceu.edu)"
+  - "Website: [http://koren.mk/](http://koren.mk/)"
 ---
 
 Some info about the project lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam est, pretium eu lacinia in, consectetur a tellus. In laoreet nulla tellus, non hendrerit lacus pharetra sit amet. Vestibulum vitae massa nulla. Maecenas in odio consectetur augue sagittis ultricies. Sed aliquam, est vitae consequat faucibus, nisi mauris consectetur ligula, at maximus nisl ipsum vel augue. Maecenas id nisi justo. Vivamus eleifend et nulla quis dictum.
