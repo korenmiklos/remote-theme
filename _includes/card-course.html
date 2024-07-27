@@ -1,6 +1,6 @@
 <div class="swiper-slide shrink-0">
   <div class="aspect-w-16 aspect-h-10 rounded-md overflow-hidden">
-    <img class="w-full h-full object-center object-cover" src="{{ post.image | absolute_url }}" alt="{{ post.title | escape }}">
+    <img class="w-full h-full object-center object-cover" src="{{ post.image | absolute_url }}" loading="lazy" alt="{{ post.title | escape }}">
   </div>
   <ul class="flex flex-wrap gap-2 mt-5">
     {% for item in post.categories %}
