@@ -12,3 +12,7 @@ Install dependencies:
 
 To start developing: 
 `npm run dev`
+
+
+{{ site.data.config[site.website].copyright }}
+

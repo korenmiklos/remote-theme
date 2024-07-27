@@ -1,5 +1,5 @@
 ---
-layout: courses
+layout: home-courses
 title: Courses
 
 software:

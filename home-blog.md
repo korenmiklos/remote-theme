@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: home-blog
 title: Blog
 
 blog:
@@ -9,7 +9,7 @@ blog:
     text: More
     url: /blog/
 
-about:
+story:
   heading: The Coded Thinking story
   copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor.
   button:

@@ -1,0 +1,17 @@
+social:
+  facebook: "#"
+  twitter: "#"
+  instagram: "#"
+  linkedin: "#"
+
+publications:
+  logo: /uploads/koren-mk.svg
+  copyright: "&copy; 2023 Koren.mk"
+
+courses:
+  logo: /uploads/koren-dev.svg
+  copyright: "&copy; 2023 Koren.dev"
+
+blog:
+  logo: /uploads/koren-ct.svg
+  copyright: "&copy; 2023 Coded Thinking OÜ"

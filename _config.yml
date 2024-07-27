@@ -4,24 +4,14 @@ description: Lorem ipsum dolorem
 url: 
 baseurl: 
 lang: en
-logo: /uploads/koren-mk.svg
-logo_mark: /uploads/logo-mark.svg
 permalink: "/:title/"
 
-social:
-  facebook: "#"
-  twitter: "#"
-  instagram: "#"
-  linkedin: "#"
-
-copyright: "&copy; 2023 Coded Thinking OÜ"
+website: courses # options: blog | courses | publications
 
 google_analytics: 
 
 paginate: 4
 paginate_path: "/blog/:num/" 
-
-search: courses # options: blog | courses | publications
 
 markdown: kramdown
 highlighter: rouge
@@ -56,9 +46,9 @@ collections:
   courses:
     output: true
     permalink: /:name
-  # posts:
-  #   output: true
-  #   permalink: /:name
+  posts:
+    output: false
+    permalink: /:name
   software:
     output: false
 

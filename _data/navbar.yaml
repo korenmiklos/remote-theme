@@ -1,0 +1,53 @@
+publications:
+- text: Publications
+  url: "/publications/"
+- text: CV
+  url: "/cv/"
+- text: More
+  dropdown:
+  - text: Project
+    url: "/project/"
+  - text: Courses
+    url: "/home-courses/"
+  - text: Software
+    url: "/software/"
+  - text: Blog
+    url: "/home-blog/"
+  - text: Codedthinking Story
+    url: "#"
+
+courses:
+- text: Publications
+  url: "/publications/"
+- text: CV
+  url: "/cv/"
+- text: More
+  dropdown:
+  - text: Project
+    url: "/project/"
+  - text: Courses
+    url: "/home-courses/"
+  - text: Software
+    url: "/software/"
+  - text: Blog
+    url: "/home-blog/"
+  - text: Codedthinking Story
+    url: "#"
+
+blog:
+- text: Publications
+  url: "/publications/"
+- text: CV
+  url: "/cv/"
+- text: More
+  dropdown:
+  - text: Project
+    url: "/project/"
+  - text: Courses
+    url: "/home-courses/"
+  - text: Software
+    url: "/software/"
+  - text: Blog
+    url: "/home-blog/"
+  - text: Codedthinking Story
+    url: "#"

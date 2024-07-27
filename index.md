@@ -1,5 +1,5 @@
 ---
-layout: publications
+layout: home-publications
 title: 
 
 hero:

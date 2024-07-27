@@ -2,17 +2,13 @@
   class="bg-white transition duration-500 relative">
   <div class="mx-auto max-w-7xl flex flex-wrap items-center space-x-8 justify-between px-6 lg:px-8 py-11 lg:py-12">
     <a href="{{ "/" | relative_url }}">
-      {% if site.logo %}
-        <img class="h-14 lg:h-24" src="{{ site.logo | absolute_url }}" height="96" alt="{{ site.title }}">
-      {% else %}
-        {{ site.title }}
-      {% endif %}
+      <img class="h-14 lg:h-24" src="{{ site.data.config[site.website].logo | absolute_url }}" height="96" alt="{{ site.title }}">
     </a>
 
     <div class="flex items-center flex-1 justify-end">
             
       <nav class="hidden lg:flex lg:mr-5">
-        {% for link in site.data.navbar %}
+        {% for link in site.data.navbar[site.website] %}
           {% if link.url contains 'http' %}
             {% assign domain = '' %}
           {% else %}
@@ -79,7 +75,7 @@
           <div class="relative px-1.5">
             <input id="search-input" name="search" data-minchars="1" data-maxitems="30"
               class="block relative z-20 w-full rounded-md border-0 bg-[#F9F9FF] py-3 pl-10 pr-3 text-blue ring-0 placeholder:text-gray-2 focus:ring-0 text-base sm:leading-6"
-              placeholder="{{ site.data.translation[site.lang].search | default: 'Search' }}" type="search" autocomplete="off">
+              placeholder="Search for..." type="search" autocomplete="off">
             <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4 z-20">
               <svg class="h-5 w-5 text-red" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd"
@@ -118,7 +114,7 @@
     >
     <div class="overflow-hidden bg-white">
       <div class="space-y-1 p-6 pb-20">
-        {% for link in site.data.navbar %}
+        {% for link in site.data.navbar[site.website] %}
           {% if link.url contains 'http' %}
             {% assign domain = '' %}
           {% else %}
@@ -167,14 +163,14 @@
     </div>
   </div>
 </header>
-{% assign filename = "search-" | append: site.search | append: ".json" %}
+{% assign filename = "search-" | append: site.website | append: ".json" %}
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 <script>
 	window.simpleJekyllSearch = new SimpleJekyllSearch({
 		searchInput: document.getElementById('search-input'),
 		resultsContainer: document.getElementById('results-container'),
 		searchResultTemplate: '<li><a class="py-2 block leading-tight hover:text-red" href="{url}">{title}</a></li>',
-		noResultsText: '<li class="no-results py-3">{{ site.data.translation[site.lang].no_results | default: 'No results found' }}</li>',
+		noResultsText: '<li class="no-results py-3">No results found</li>',
 		json: "{{ filename | relative_url }}"
 	});
 	
