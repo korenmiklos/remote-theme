@@ -31,8 +31,8 @@ courses:
     url: "/software/"
   - text: Blog
     url: "/home-blog/"
-  - text: Codedthinking Story
-    url: "#"
+  - text: Story
+    url: "/story/"
 
 blog:
 - text: Publications
