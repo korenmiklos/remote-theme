@@ -8,13 +8,13 @@ publications:
 - text: More
   dropdown:
   - text: Courses
-    url: "#"
+    url: "https://koren.dev"
   - text: Software
-    url: "/software/"
+    url: "https://koren.dev/software/"
   - text: Blog
-    url: "/blog/"
+    url: "https://codedthinking.com"
   - text: Codedthinking Story
-    url: "/story/"
+    url: "https://codedthinking.com/story/"
 
 courses:
 - text: Courses
@@ -24,13 +24,13 @@ courses:
 - text: More
   dropdown:
   - text: Publications
-    url: "/"
+    url: "https://koren.mk"
   - text: CV
-    url: "/cv/"
+    url: "https://koren.mk/cv/"
   - text: Blog
-    url: "/blog/"
+    url: "https://codedthinking.com"
   - text: Codedthinking Story
-    url: "/story/"
+    url: "https://codedthinking.com/story/"
 
 blog:
 - text: Blog
@@ -40,10 +40,10 @@ blog:
 - text: More
   dropdown:
   - text: Courses
-    url: "#"
+    url: "https://koren.dev"
   - text: Software
-    url: "/software/"
+    url: "https://koren.dev/software/"
   - text: Publications
-    url: "/"
+    url: "https://koren.mk"
   - text: CV
-    url: "/cv/"
+    url: "https://koren.mk/cv/"
