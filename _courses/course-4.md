@@ -7,6 +7,7 @@ tags:
 
 categories:
 - lorem
+- ipsum
 
 author: john
 links:

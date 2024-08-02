@@ -14,20 +14,20 @@ story:
   copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor.
   button:
     text: Read now
-    url: "/about/"
+    url: "/story/"
 
 courses:
   heading: Browse courses
   copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor.
   button:
     text: To courses
-    url: "#"
+    url: "https://koren.dev"
 
 cta:
   heading: Browse publications
   copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor.
   button:
     text: To publications
-    url: "#"
+    url: "https://koren.mk"
 
 ---
