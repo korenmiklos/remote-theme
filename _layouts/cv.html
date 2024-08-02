@@ -35,7 +35,7 @@ layout: default
 
       {% for accordion in page.accordion %}
         <div x-data="{ expanded: false }" class="">
-          <h3>
+          <h2>
             <button x-on:click="expanded = ! expanded"
               class="w-full py-3 flex items-center text-left text-[1.75rem] uppercase font-bold font-display text-blue">
               <span class="grow">{{ accordion.heading }}</span>
@@ -47,7 +47,7 @@ layout: default
                   clip-rule="evenodd"></path>
               </svg>
             </button>
-          </h3>
+          </h2>
           <div x-show="expanded" x-collapse>
             <ul class="space-y-6 text-blue leading-snug pb-16">
               {% for item in accordion.items %}
@@ -65,7 +65,7 @@ layout: default
       {% assign filtered_publications = site.publications | sort: 'date' | reverse %}
       {% for item in page.publications %}
         <div x-data="{ expanded: false }" class="">
-          <h3>
+          <h2>
             <button x-on:click="expanded = ! expanded"
               class="w-full py-3 flex items-center text-left text-[1.75rem] uppercase font-bold font-display text-blue">
               <span class="grow">{{ item.heading }}</span>
@@ -77,7 +77,7 @@ layout: default
                   clip-rule="evenodd"></path>
               </svg>
             </button>
-          </h3>
+          </h2>
           <div x-show="expanded" x-collapse>
             <ul class="space-y-6 text-blue leading-snug pb-16">
               {% for publication in filtered_publications %}
@@ -92,7 +92,7 @@ layout: default
 
       {% for accordion in page.accordion_2 %}
         <div x-data="{ expanded: false }" class="">
-          <h3>
+          <h2>
             <button x-on:click="expanded = ! expanded"
               class="w-full py-3 flex items-center text-left text-[1.75rem] uppercase font-bold font-display text-blue">
               <span class="grow">{{ accordion.heading }}</span>
@@ -104,7 +104,7 @@ layout: default
                   clip-rule="evenodd"></path>
               </svg>
             </button>
-          </h3>
+          </h2>
           <div x-show="expanded" x-collapse>
             <ul class="space-y-6 text-blue leading-snug pb-16">
               {% for item in accordion.items %}

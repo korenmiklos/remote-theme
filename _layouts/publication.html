@@ -52,7 +52,7 @@ layout: default
       </svg>
     </div>
     <div class="flex-1 lg:mt-14">
-      <h3 class="text-blue uppercase font-bold text-3xl mb-16">Project team</h3>
+      <h2 class="text-blue uppercase font-bold text-3xl mb-16">Project team</h2>
       <div class="space-y-7">
         {% for person in page.team %}
           {% for item in site.data.team %}
@@ -60,7 +60,7 @@ layout: default
               <div class="flex space-x-5 items-center">
                 <img class="rounded w-[6.25rem] h-auto" src="{{ item.image | absolute_url }}" loading="lazy" alt="{{ item.name }}">
                 <div>
-                  <h4 class="font-bold text-lg text-red">{{ item.name }}</h4>
+                  <h3 class="font-bold text-lg text-red">{{ item.name }}</h3>
                   <p class="text-gray-2">{{ item.title }}</p>
                 </div>
               </div>
@@ -68,14 +68,14 @@ layout: default
           {% endfor %}
         {% endfor %}
       </div>
-      <h3 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Sponsor institute</h3>
+      <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Sponsor institute</h2>
       <div class="space-y-7">
         {% for item in page.sponsors %}
           <img class="w-full" src="{{ item | absolute_url }}" loading="lazy" alt="Sponsor">
         {% endfor %}
       </div>
 
-      <h3 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Project Resources</h3>
+      <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Project Resources</h2>
       <div class="space-y-7">
         {% for item in page.links %}
           <a class="text-lg font-bold text-red space-x-1 flex items-center justify-center border border-red rounded-full py-2.5 px-4" href="{{ item.url | relative_url }}" {% if item.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
