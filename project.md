@@ -3,8 +3,8 @@ layout: project
 title: Publication title
 date: 2023-09-26
 sponsors:
-- /uploads/sponsor-1.png
-- /uploads/sponsor-2.png
+- /assets/images/sponsor-1.png
+- /assets/images/sponsor-2.png
 
 authors:
 - john

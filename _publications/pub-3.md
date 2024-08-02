@@ -15,8 +15,8 @@ team:
 - james
 
 sponsors:
-- /uploads/sponsor-1.png
-- /uploads/sponsor-2.png
+- /assets/images/sponsor-1.png
+- /assets/images/sponsor-2.png
 
 links:
 - text: Full text (open access, HTML)

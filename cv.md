@@ -7,7 +7,7 @@ about:
   location: Central European University, Department of Economics and Business
   personal_data: "DOB: 1976, Male, Hungarian citizen"
   interests: International trade, growth and development
-  image: /uploads/miklos-koren.jpg
+  image: /assets/images/miklos-koren.jpg
 
 statement: Cool mission statement or quote or motivational sentence.
 

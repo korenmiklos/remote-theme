@@ -5,13 +5,13 @@ social:
   linkedin: "#"
 
 publications:
-  logo: /uploads/koren-mk.svg
+  logo: /assets/images/koren-mk.svg
   copyright: "&copy; 2023 Koren.mk"
 
 courses:
-  logo: /uploads/koren-dev.svg
+  logo: /assets/images/koren-dev.svg
   copyright: "&copy; 2023 Koren.dev"
 
 blog:
-  logo: /uploads/koren-ct.svg
+  logo: /assets/images/koren-ct.svg
   copyright: "&copy; 2023 Coded Thinking OÜ"
