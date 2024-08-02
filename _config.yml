@@ -6,7 +6,7 @@ baseurl:
 lang: en
 permalink: "/:title/"
 
-website: courses # options: blog | courses | publications
+website: publications # options: blog | courses | publications
 
 google_analytics: 
 
@@ -42,13 +42,13 @@ livereload: true
 collections:
   publications:
     output: true
-    permalink: /:name
+    permalink: /:collection/:name
   courses:
     output: true
-    permalink: /:name
+    permalink: /:collection/:name
   posts:
     output: false
-    permalink: /:name
+    permalink: /:collection/:name
   software:
     output: false
 

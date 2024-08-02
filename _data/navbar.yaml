@@ -1,53 +1,49 @@
 publications:
 - text: Publications
-  url: "/publications/"
+  url: "/"
 - text: CV
   url: "/cv/"
+- text: Project
+  url: "/project/"
 - text: More
   dropdown:
-  - text: Project
-    url: "/project/"
   - text: Courses
-    url: "/home-courses/"
+    url: "#"
   - text: Software
     url: "/software/"
   - text: Blog
-    url: "/home-blog/"
+    url: "/blog/"
   - text: Codedthinking Story
-    url: "#"
+    url: "/story/"
 
 courses:
-- text: Publications
-  url: "/publications/"
-- text: CV
-  url: "/cv/"
+- text: Courses
+  url: "/"
+- text: Software
+  url: "/software/"
 - text: More
   dropdown:
-  - text: Project
-    url: "/project/"
-  - text: Courses
-    url: "/home-courses/"
-  - text: Software
-    url: "/software/"
+  - text: Publications
+    url: "/"
+  - text: CV
+    url: "/cv/"
   - text: Blog
-    url: "/home-blog/"
-  - text: Story
+    url: "/blog/"
+  - text: Codedthinking Story
     url: "/story/"
 
 blog:
-- text: Publications
-  url: "/publications/"
-- text: CV
-  url: "/cv/"
+- text: Blog
+  url: "/"
+- text: The story
+  url: "/story/"
 - text: More
   dropdown:
-  - text: Project
-    url: "/project/"
   - text: Courses
-    url: "/home-courses/"
+    url: "#"
   - text: Software
     url: "/software/"
-  - text: Blog
-    url: "/home-blog/"
-  - text: Codedthinking Story
-    url: "#"
+  - text: Publications
+    url: "/"
+  - text: CV
+    url: "/cv/"
