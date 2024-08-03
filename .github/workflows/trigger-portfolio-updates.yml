@@ -1,0 +1,32 @@
+# File: .github/workflows/trigger-portfolio-updates.yml
+name: Trigger Portfolio Updates
+
+on:
+  push:
+    branches:
+      - main  # or your default branch name
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger portfolio1 update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: your-username/portfolio1
+          event-type: update-from-data
+
+      - name: Trigger portfolio2 update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: your-username/portfolio2
+          event-type: update-from-data
+
+      - name: Trigger portfolio3 update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: your-username/portfolio3
+          event-type: update-from-data
