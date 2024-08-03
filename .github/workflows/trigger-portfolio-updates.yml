@@ -13,20 +13,20 @@ jobs:
       - name: Trigger portfolio1 update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: your-username/portfolio1
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: korenmiklos/portfolio1
           event-type: update-from-data
 
       - name: Trigger portfolio2 update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: your-username/portfolio2
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: korenmiklos/portfolio2
           event-type: update-from-data
 
       - name: Trigger portfolio3 update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: your-username/portfolio3
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: korenmiklos/portfolio3
           event-type: update-from-data
