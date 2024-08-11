@@ -7,6 +7,7 @@ links:
     url: "http://onlinelibrary.wiley.com/doi/10.1111/jeea.12108/abstract"
 statement: ""
 team:
+  - "armenter"
   - "koren"
 sponsors: []
 title: "Economies of Scale and the Size of Exporters"

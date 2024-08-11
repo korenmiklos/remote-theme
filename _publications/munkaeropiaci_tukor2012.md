@@ -6,6 +6,7 @@ links:
 statement: ""
 team:
   - "koren"
+  - "toth"
 sponsors: []
 title: "A külkereskedelem hatása a vállalati munkaerőre és a bérek alakulására"
 date: "2012-08-01"

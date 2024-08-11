@@ -9,7 +9,8 @@ links:
     url: "https://github.com/korenmiklos/per-shipment-costs-replication"
 statement: ""
 team:
-  - "koren"
+  - koren
+  - hornok
 sponsors: []
 title: "Per-Shipment Costs and the Lumpiness of International Trade"
 date: "2014-01-01"

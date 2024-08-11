@@ -8,6 +8,9 @@ links:
 statement: ""
 team:
   - "koren"
+  - "connolly"
+  - "lull"
+  - "vilhuber"
 sponsors: []
 title: "Data and Code Availability Standard"
 date: "2022-12-15"

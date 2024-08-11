@@ -3,6 +3,7 @@ cite: |-
 links: []
 statement: ""
 team:
+  - "peto"
   - "koren"
 sponsors: []
 title: "Mely iparágakban és régiókban van lehetőség hosszú távon is távmunkára?"

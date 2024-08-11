@@ -3,7 +3,10 @@ cite: |-
 links: []
 statement: ""
 team:
+  - "halpern"
   - "koren"
+  - "korosi"
+  - "vincze"
 sponsors: []
 title: "A minimálbér költségvetési hatásai"
 date: "2004-01-01"

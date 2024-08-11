@@ -7,7 +7,10 @@ links:
     url: "http://www.voxeu.org/article/still-standing-global-crisis-and-european-firms"
 statement: ""
 team:
+  - "bekes"
+  - "halpern"
   - "koren"
+  - "murakozy"
 sponsors: []
 title: "Still standing: how European firms weathered the crisis - The third EFIGE policy report"
 date: "2011-12-22"

@@ -12,6 +12,7 @@ links:
 statement: "The mobility data used in this paper is proprietary, but may be obtained free of charge for COVID-19-related research from the COVID-19 Consortium. The authors are not affiliated with this consortium. Researchers interested in access to the data can apply at https://www.safegraph.com/covid-19-data-consortium (data manager: Ross Epstein, ross@safegraph.com). After signing a Data Agreement, access is granted within a few days. The Consortium does not require coauthorship and does not review or approve research results before publication. The authors will assist with any reasonable replication attempts for two years following publication. The code and all other data underlying our analysis are licensed for public use and are available on Zenodo at http://doi.org/10.5281/zenodo.4016325.\n"
 team:
   - "koren"
+  - "peto"
 sponsors: []
 title: "Business disruptions from social distancing"
 date: "2020-09-18"

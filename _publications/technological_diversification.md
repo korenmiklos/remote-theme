@@ -10,6 +10,7 @@ links:
 statement: ""
 team:
   - "koren"
+  - "tenreyro"
 sponsors: []
 title: "Technological Diversification"
 date: "2013-02-03"

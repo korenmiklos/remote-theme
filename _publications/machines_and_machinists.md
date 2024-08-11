@@ -7,6 +7,8 @@ links:
 statement: ""
 team:
   - "koren"
+  - "csillag"
+  - "kollo"
 sponsors: []
 title: "Machines and Machinists: Incremental technical change and wage inequality\n"
 date: "2020-02-29"

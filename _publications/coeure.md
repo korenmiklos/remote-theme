@@ -5,6 +5,7 @@ links:
     url: "https://www.dropbox.com/s/x2yefhltcwpmrmb/hornok-koren.pdf?dl=1"
 statement: ""
 team:
+  - "hornok"
   - "koren"
 sponsors: []
 title: "Trade and Development in a Globalized World: The Roadmap for a Research Agenda"

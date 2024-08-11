@@ -3,6 +3,9 @@ cite: |-
 links: []
 statement: ""
 team:
+  - "ruzicska"
+  - "chariag"
+  - "kiss"
   - "koren"
 sponsors: []
 title: "Can Machine Learning Beat Gravity for Predicting Flows?"

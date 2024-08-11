@@ -7,6 +7,7 @@ links:
 statement: ""
 team:
   - "koren"
+  - "orban"
 sponsors: []
 title: "The Macroeconomics of Managers: Supply, Selection, and Competition\n"
 date: "2023-09-29"

@@ -5,6 +5,7 @@ links:
     url: "http://miklos.koren.hu/static/pdf/cattle.pdf"
 statement: ""
 team:
+  - "karadi"
   - "koren"
 sponsors: []
 title: "Cattle, Steaks and Restaurants: Development Accounting when Space Matters"

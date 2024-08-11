@@ -5,7 +5,10 @@ links:
     url: "http://www.kszemle.hu/tartalom/letoltes.php?id=1516"
 statement: ""
 team:
+  - "kondor"
   - "koren"
+  - "pal"
+  - "szeidl"
 sponsors: []
 title: "Cégek kapcsolati hálózatainak gazdasági szerepe"
 date: "2014-11-13"

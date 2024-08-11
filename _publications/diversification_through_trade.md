@@ -11,7 +11,10 @@ links:
     url: "https://github.com/korenmiklos/Diversification-Through-Trade-Replication/tree/v1.1"
 statement: ""
 team:
+  - "caselli"
   - "koren"
+  - "lisicky"
+  - "tenreyro"
 sponsors: []
 title: "Diversification through Trade"
 date: "2020-02-01"

@@ -5,6 +5,7 @@ links:
     url: "https://zenodo.org/record/1441396"
 statement: ""
 team:
+  - halpern
   - "koren"
 sponsors: []
 title: "Pricing to Firm: An Analysis of Firm- and Product-Level Import Prices"

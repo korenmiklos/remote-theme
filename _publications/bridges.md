@@ -9,7 +9,9 @@ links:
     url: "https://www.dropbox.com/s/l8tmmt0wve2tp1c/koren-bridges.pdf?dl=0"
 statement: ""
 team:
+  - "armenter"
   - "koren"
+  - "nagy"
 sponsors: []
 title: "Bridges"
 date: "2014-07-23"

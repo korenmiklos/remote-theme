@@ -7,7 +7,11 @@ links:
     url: "https://doi.org/10.5281/zenodo.7293838"
 statement: ""
 team:
+  - "vilhuber"
+  - "connolly"
   - "koren"
+  - "llull"
+  - "morrow"
 sponsors: []
 title: "A template README for social science replication packages"
 date: "2022-11-05"

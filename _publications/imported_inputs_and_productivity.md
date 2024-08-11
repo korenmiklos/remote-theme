@@ -11,7 +11,9 @@ links:
     url: "https://github.com/korenmiklos/imported-inputs-and-productivity-replication"
 statement: ""
 team:
+  - "halpern"
   - "koren"
+  - "szeidl"
 sponsors: []
 title: "Imported Inputs and Productivity"
 date: "2015-12-01"

@@ -6,6 +6,7 @@ links:
 statement: ""
 team:
   - "koren"
+  - "telegdy"
 sponsors: []
 title: "Expatriate Managers: Effects on Firm Performance"
 date: "2024-06-07"

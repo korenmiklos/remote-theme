@@ -11,7 +11,9 @@ links:
     url: "https://voxeu.org/article/learning-your-peers-import"
 statement: ""
 team:
+  - "bisztray"
   - "koren"
+  - "szeidl"
 sponsors: []
 title: "Learning to Import from Your Peers"
 date: "2018-11-01"

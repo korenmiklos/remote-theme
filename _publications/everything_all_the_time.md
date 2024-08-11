@@ -5,6 +5,7 @@ links:
     url: "http://econ.la.psu.edu/papers/Armenter040113.pdf"
 statement: ""
 team:
+  - "armenter"
   - "koren"
 sponsors: []
 title: "Everything all the time? Entry and Exit in U.S. Import Varieties"

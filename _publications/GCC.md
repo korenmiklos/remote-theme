@@ -8,6 +8,7 @@ links:
 statement: ""
 team:
   - "koren"
+  - "tenreyro"
 sponsors: []
 title: "Volatility, diversification and development in the Gulf Cooperation Council countries"
 date: "2010-06-01"

@@ -3,7 +3,10 @@ cite: |-
 links: []
 statement: ""
 team:
+  - "bekes"
+  - "hinz"
   - "koren"
+  - "lohmann"
 sponsors: []
 title: "The Geography of Production and Sourcing in the Weightless Economy: Evidence from Open-Source Software"
 date: "2023-09-30"

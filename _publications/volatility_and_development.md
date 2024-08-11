@@ -12,6 +12,7 @@ links:
 statement: ""
 team:
   - "koren"
+  - tenreyro
 sponsors: []
 title: "Volatility and Development"
 date: "2007-02-01"

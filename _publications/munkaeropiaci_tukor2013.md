@@ -6,6 +6,7 @@ links:
 statement: ""
 team:
   - "koren"
+  - "toth"
 sponsors: []
 title: "The impact of international trade on employment and wages"
 date: "2013-05-01"

@@ -9,6 +9,7 @@ links:
     url: "http://www-2.rotman.utoronto.ca/bblum/MS_AER-2014-0372_Manuscript_Final_Version.pdf"
 statement: ""
 team:
+  - armenter
   - "koren"
 sponsors: []
 title: "A Balls-and-Bins Model of Trade: Reply"

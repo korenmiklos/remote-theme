@@ -13,6 +13,7 @@ links:
     url: "/papers/peer_reviewed_publications/bb_reply/"
 statement: ""
 team:
+  - "armenter"
   - "koren"
 sponsors: []
 title: "A Balls-and-Bins Model of Trade"
