@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: CV
+pdf: "#"
 about:
   name: Miklós Koren
   position: Professor

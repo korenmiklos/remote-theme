@@ -30,7 +30,11 @@ layout: default
             <div class="flex space-x-5 items-center">
               <img class="rounded w-24 h-auto" width="96" height="96" src="{{ item.image | absolute_url }}" loading="lazy" alt="Lorem">
               <div>
-                <h4 class="font-bold text-lg text-red">{{ item.name }}</h4>
+                {% if item.url and item.url != empty %} 
+                <a href="{{ item.url }}" class="group" target="_blank" rel="noopener noreferrer">
+                {% endif %}
+                <h4 class="font-bold text-lg text-red group-hover:underline">{{ item.name }}</h4>
+                {% if item.url and item.url != empty %}</a>{% endif %}
                 <p class="text-gray-2">{{ item.title }}</p>
               </div>
             </div>
@@ -47,7 +51,11 @@ layout: default
             <div class="flex space-x-5 items-center">
               <img class="rounded w-24 h-auto" width="96" height="96" src="{{ item.image | absolute_url }}" loading="lazy" alt="Lorem">
               <div>
-                <h4 class="font-bold text-lg text-red">{{ item.name }}</h4>
+                {% if item.url and item.url != empty %} 
+                <a href="{{ item.url }}" class="group" target="_blank" rel="noopener noreferrer">
+                {% endif %}
+                <h4 class="font-bold text-lg text-red group-hover:underline">{{ item.name }}</h4>
+                {% if item.url and item.url != empty %}</a>{% endif %}
                 <p class="text-gray-2">{{ item.title }}</p>
               </div>
             </div>
@@ -64,7 +72,11 @@ layout: default
             <div class="flex space-x-5 items-center">
               <img class="rounded w-24 h-auto" width="96" height="96" src="{{ item.image | absolute_url }}" loading="lazy" alt="Lorem">
               <div>
-                <h4 class="font-bold text-lg text-red">{{ item.name }}</h4>
+                {% if item.url and item.url != empty %} 
+                <a href="{{ item.url }}" class="group" target="_blank" rel="noopener noreferrer">
+                {% endif %}
+                <h4 class="font-bold text-lg text-red group-hover:underline">{{ item.name }}</h4>
+                {% if item.url and item.url != empty %}</a>{% endif %}
                 <p class="text-gray-2">{{ item.title }}</p>
               </div>
             </div>
