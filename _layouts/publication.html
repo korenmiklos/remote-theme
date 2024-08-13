@@ -74,11 +74,11 @@ layout: default
           {% endfor %}
         {% endfor %}
       </div>
-      {% if page.sponsors and page.sponsors != empty %}
-        <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Sponsor institute</h2>
+      {% if page.grants and page.grants != empty %}
+        <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Grant institute</h2>
         <div class="space-y-7">
-          {% for item in page.sponsors %}
-            <img class="w-full" src="{{ item | absolute_url }}" loading="lazy" alt="Sponsor">
+          {% for item in page.grants %}
+            <img class="w-full" src="{{ item.image | absolute_url }}" loading="lazy" alt="{{ item.name }}">
           {% endfor %}
         </div>
       {% endif %}

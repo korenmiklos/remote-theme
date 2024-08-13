@@ -11,8 +11,8 @@ layout: default
     </time>
     <h2 class="text-blue font-normal mt-8 lg:mt-20">Made possible by</h2>
     <div class="gap-7 grid lg:grid-cols-2 mt-12">
-      {% for item in page.sponsors %}
-        <img class="w-full" src="{{ item | absolute_url }}" loading="lazy" alt="Sponsor">
+      {% for item in page.grants %}
+        <img class="w-full" src="{{ item.image | absolute_url }}" loading="lazy" alt="{{ item.name }}">
       {% endfor %}
     </div>
     <div class="mt-14 lg:mt-16 prose max-w-none prose-slate prose-headings:font-bold prose-a:text-red hover:prose-a:text-red">
