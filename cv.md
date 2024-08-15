@@ -114,26 +114,45 @@ accordion_2:
 
 - heading: Teaching Experience
   items:
-  - "Data Architecture for Analysts (graduate), Central European University, 2019-"
-  - "Data Carpentry (graduate), Rajk László College, 2014-. Certified Carpentries Instructor, 2019."
-  - "Economics of Trade Policy (graduate), Central European University, 2011-."
-  - "International Trade (graduate), Central European University, 2009-."
-  - "Macroeconomics (graduate), Central European University, 2008-. Best Teacher Award 2010. Harvard University (teaching fellow), 2002-2003."
-  - "Macroeconomics (undergraduate), Rajk László College, 1998-2000"
-  - "Introduction to Investments (undergraduate), Harvard University (teaching fellow), 2003-2004."
+  - date: 2019 -
+    copy: "Data Architecture for Analysts (graduate), Central European University"
+  - date: 2019
+    copy: "Data Carpentry (graduate), Rajk László College, 2014-. Certified Carpentries Instructor"
+  - date: 2011 -
+    copy: "Economics of Trade Policy (graduate), Central European University"
+  - date: 2009 -
+    copy: "International Trade (graduate), Central European University"
+  - date: 2008 -
+    copy: "Macroeconomics (graduate), Central European University"
+  - date: 2002 - 2003
+    copy: "Best Teacher Award 2010. Harvard University (teaching fellow)"
+  - date: 1998 - 2000
+    copy: "Macroeconomics (undergraduate), Rajk László College"
+  - date: 2003 - 2004
+    copy: "Introduction to Investments (undergraduate), Harvard University (teaching fellow)"
 
 - heading: Honors, Scholarships, and Fellowships
   items:
-  - "Ordinary Member, Academia Europaea, 2020."
-  - "Nicholas Káldor Prize, Káldor Foundation, 2014."
-  - "Best Teacher Award, Central European University, 2009-2010."
-  - "Best paper on \"Frontier and Newly Emerging Economies\", Forum for Research in Empirical International Trade. 2009."
-  - "Peter B. Kenen Fellowship, Princeton University. 2007-2008."
-  - "Herrnstein Prize for Ph.D. Dissertation. Harvard University. 2005."
-  - "Young Economist Award, European Economic Association. 2002, 2004."
-  - "Lamfalussy Research Fellowship, European Central Bank. 2004."
-  - "Harvard University Scholarship and Dillon Fellowship Fund, Harvard University. 2002-2004."
-  - "Heller Farkas Award for Academic Excellence, Rajk László College. 1999."
+  - date: 2020
+    copy: "Ordinary Member, Academia Europaea"
+  - date: 2014
+    copy: "Nicholas Káldor Prize, Káldor Foundation"
+  - date: 2009 - 2010
+    copy: "Best Teacher Award, Central European University"
+  - date: 2009
+    copy: "Best paper on \"Frontier and Newly Emerging Economies\", Forum for Research in Empirical International Trade"
+  - date: 2007 - 2008
+    copy: "Peter B. Kenen Fellowship, Princeton University"
+  - date: 2005
+    copy: "Herrnstein Prize for Ph.D. Dissertation. Harvard University"
+  - date: 2002, 2004
+    copy: "Young Economist Award, European Economic Association"
+  - date: 2004
+    copy: "Lamfalussy Research Fellowship, European Central Bank"
+  - date: 2002 - 2004
+    copy: "Harvard University Scholarship and Dillon Fellowship Fund, Harvard University"
+  - date: 1999
+    copy: "Heller Farkas Award for Academic Excellence, Rajk László College"
 
 contact:
   heading: Office Contact Information
