@@ -17,8 +17,10 @@ layout: default
         <p class="mt-10">Please cite as</p>
         <p>{{ page.cite }}</p>
       </div>
+      {% if page.statement and page.statement != empty %}
       <p class="hidden lg:block text-gray-2 mt-24">Data Availability Statement</p>
-      <div class="text-gray-2 mt-10 lg:mt-5 leading-relaxed [&_a]:text-red">{{ page.statement | markdownify }}</div>
+        <div class="text-gray-2 mt-10 lg:mt-5 leading-relaxed [&_a]:text-red">{{ page.statement | markdownify }}</div>
+      {% endif %}
       <svg class="w-full h-auto sm:hidden mt-5" width="312" height="125" viewBox="0 0 312 125" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.2935 92.3184C11.2935 93.1468 10.6219 93.8184 9.79346 93.8184L2.29346 93.8184C1.46503 93.8184 0.793457 93.1468 0.793457 92.3184L0.793456 84.8184C0.793456 83.9899 1.46503 83.3184 2.29346 83.3184L11.2935 83.3184L11.2935 92.3184Z" fill="#E61E25"/>
         <path d="M21.7935 81.8184C21.7935 82.6468 21.1219 83.3184 20.2935 83.3184L11.2935 83.3184L11.2935 72.8184L20.2935 72.8184C21.1219 72.8184 21.7935 73.4899 21.7935 74.3184L21.7935 81.8184Z" fill="#E61E25"/>
@@ -60,7 +62,11 @@ layout: default
               <div class="flex space-x-5 items-center">
                 <img class="rounded w-[6.25rem] h-auto" src="{{ item.image | absolute_url }}" loading="lazy" alt="{{ item.name }}">
                 <div>
-                  <h3 class="font-bold text-lg text-red">{{ item.name }}</h3>
+                  {% if item.url and item.url != empty %} 
+                  <a href="{{ item.url }}" class="group" target="_blank" rel="noopener noreferrer">
+                  {% endif %}
+                  <h3 class="font-bold text-lg text-red group-hover:underline">{{ item.name }}</h3>
+                  {% if item.url and item.url != empty %}</a>{% endif %}
                   <p class="text-gray-2">{{ item.title }}</p>
                 </div>
               </div>
@@ -68,12 +74,14 @@ layout: default
           {% endfor %}
         {% endfor %}
       </div>
-      <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Sponsor institute</h2>
-      <div class="space-y-7">
-        {% for item in page.sponsors %}
-          <img class="w-full" src="{{ item | absolute_url }}" loading="lazy" alt="Sponsor">
-        {% endfor %}
-      </div>
+      {% if page.grants and page.grants != empty %}
+        <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Grant institute</h2>
+        <div class="space-y-7">
+          {% for item in page.grants %}
+            <img class="w-full" src="{{ item.image | absolute_url }}" loading="lazy" alt="{{ item.name }}">
+          {% endfor %}
+        </div>
+      {% endif %}
 
       <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Project Resources</h2>
       <div class="space-y-7">

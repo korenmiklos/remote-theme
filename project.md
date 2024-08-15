@@ -2,9 +2,11 @@
 layout: project
 title: Publication title
 date: 2023-09-26
-sponsors:
-- /assets/images/sponsor-1.png
-- /assets/images/sponsor-2.png
+grants:
+- name: EU
+  image: /assets/images/grant-1.png
+- name: Nemzeti
+  image: /assets/images/grant-2.png
 
 authors:
 - john

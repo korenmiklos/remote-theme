@@ -26,7 +26,7 @@ layout: default
 
 <div class="mx-auto max-w-5xl px-6 lg:px-8 xl:px-12 py-16">
   <div class="flex flex-col lg:flex-row gap-12 lg:gap-24 xl:gap-36">
-    <img class="max-w-[13.75rem] h-auto hidden lg:block" src="{{ page.about.image | absolute_url }}" alt="{{ page.about.name | escape }}">
+    <img class="max-w-[13.75rem] h-auto hidden lg:block rounded-md" src="{{ page.about.image | absolute_url }}" alt="{{ page.about.name | escape }}">
     <div>
       {% if page.about.name and page.about.name != empty %}
         <h2 class="text-5xl lg:text-6xl font-bold text-red flex items-center gap-4">
