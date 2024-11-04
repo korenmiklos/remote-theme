@@ -1,7 +1,7 @@
 ---
 title: Opten Cégjegyzék
 description: Short paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eu lectus facilisis volutpat. Curabitur tristique eget eros non sodales. Mauris at nibh sit amet quam aliquet maximus nec nec sapien.
-date: 2014-01-01
+date: 2013-01-01
 extent:
   records: 1B+
   size: 300GB
