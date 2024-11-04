@@ -1,31 +1,47 @@
 ---
 title: GitHub Torrent metadata snapshot
+description: Short paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eu lectus facilisis volutpat. Curabitur tristique eget eros non sodales. Mauris at nibh sit amet quam aliquet maximus nec nec sapien.
 date: 2014-01-01
-
-
-cite: |-
-  Hornok, Cecília and Miklós Koren. 2014. "Per-Shipment Costs and the Lumpiness of International Trade" Review of Economics and Statistics. 97(2), pp. 525-530.
+extent:
+  records: 10M+
+  size: 300GB
+accessRights: Limited use
+coverage: 
+  spatial: Germany
+  temporal: 1991-2021
+entities: 
+- individuals
+- businesses
+subject:
+- managers
+- germany
+publisher: 
+creator: 
+distributor: 
+bibliographicCitation: Palturai, 2024. “BusinessGraph [data set]” Palturai GmbH, Hofheim am Taunus. Available at palturai.com. Last accessed 2024-09-06.
+rights: Data is proprietary. Usage is subject to a licensing agreement with Palturai GmbH. Used with permission under agreement number XYZ (2023-11-01).
+acknowledgement: This research was supported by the European Commission (ERC Advanced Grant agreement number XYZ). The European Union is not responsible for any errors.
+format:
+- flat files in .csv
+- API access
+identifier: "#"
 links:
   - text: "Working paper version"
-    url: "https://cdn.thnk.ng/pdf/per_shipment_costs/note.pdf"
+    url: "#"
   - text: "Link to publisher website"
-    url: "http://dx.doi.org/10.1162/REST_a_00468"
+    url: "#"
   - text: "Replication code and data"
-    url: "https://github.com/korenmiklos/per-shipment-costs-replication"
-statement: ""
-team:
-  - koren
-  - hornok
-grants:
-# - name: EU
-#   image: /assets/images/grant-1.png
-# - name: Nemzeti
-#   image: /assets/images/grant-2.png
-tags:
-  - reviewed
-description: "Using detailed U.S. and Spanish export data, we document that trade costs of a per-shipment nature are associated with less frequent and larger shipments, i.e. more lumpiness, in international trade. This finding is pervasive across broad product categories, but most apparent for food products, industrial supplies and parts and accessories.\n"
-
+    url: "#"
 ---
 
-Using detailed U.S. and Spanish export data, we document that trade costs of a per-shipment nature are associated with less frequent and larger shipments, i.e. more lumpiness, in international trade. This finding is pervasive across broad product categories, but most apparent for food products, industrial supplies and parts and accessories.
+| Name | Date | Company | Relation |
+|------|------|---------|----------|
+| John von Neuman | 1992-01-01 | Game Theory Co. | Owner |
+| John von Neuman | 1992-01-01 | Game Theory Co. | Owner |
+| John von Neuman | 1992-01-01 | Game Theory Co. | Owner |
+| John von Neuman | 1992-01-01 | Game Theory Co. | Owner |
+| John von Neuman | 1992-01-01 | Game Theory Co. | Owner |
+| John von Neuman | 1992-01-01 | Game Theory Co. | Owner |
+
+Longform paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eu lectus facilisis volutpat. Curabitur tristique eget eros non sodales. Mauris at nibh sit amet quam aliquet maximus nec nec sapien. Proin sollicitudin condimentum orci, vitae hendrerit tortor cursus in. Morbi volutpat massa eget erat vulputate, in bibendum ex fermentum. Vestibulum dapibus eros in est iaculis convallis. Fusce ultrices, dolor non lobortis dignissim, magna ante volutpat ex, in finibus elit purus in neque.
 

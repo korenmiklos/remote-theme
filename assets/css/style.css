@@ -3947,6 +3947,10 @@ select {
     gap: 9rem;
   }
 
+  .xl\:gap-40 {
+    gap: 10rem;
+  }
+
   .xl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;

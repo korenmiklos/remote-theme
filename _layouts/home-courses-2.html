@@ -191,7 +191,7 @@ layout: default
                       </svg>
                       <span class="text-gray-1 italic text-[0.9375rem]">{{ post.location }}</p></span>
                   {% endif %}                
-                  <a href="{{ post.url | prepend: site.data.config.courses.url }}" class="text-red mt-4 inline-block">Read more &rarr;</a>
+                  <a href="{{ post.url | relative_url }}" class="text-red mt-4 inline-block">Read more &rarr;</a>
                 </div>            
               {% endfor %}
             </div>
@@ -321,16 +321,16 @@ layout: default
   </svg>
   <div class="mx-auto max-w-[66rem] px-6 lg:px-8 pt-16 pb-20 lg:py-28 relative">
     <h2 class="text-5xl lg:text-6xl text-blue font-bold leading-[1.2] md:text-center">{{ page.datasets.heading }}</h2>
-    <div class="grid md:grid-cols-3 gap-8 lg:gap-20 mt-12 lg:mt-16">
+    <div class="grid md:grid-cols-2 gap-8 lg:gap-20 xl:gap-40 mt-12 lg:mt-16">
       {% assign posts = site.datasets | sort: 'date' | reverse %}
-      {% for post in posts limit: 3 %}
+      {% for post in posts limit: 2 %}
         <div class="">
           <h3 class="uppercase text-blue font-bold text-[1.75rem] leading-tight">{{ post.title }}</h3>
           {% if post.cite and post.cite != empty %}
             <p class="text-gray-2 italic text-sm mt-4">{{ post.cite }}</p>
           {% endif %}
           <hr class="border-gray-3 mt-2 hidden lg:block">
-          <a href="{{ post.url | prepend: site.data.config.publications.url }}" class="text-red mt-4 lg:mt-12 inline-block">Read more &rarr;</a>
+          <a href="{{ post.url | relative_url }}" class="text-red mt-4 lg:mt-12 inline-block">Read more &rarr;</a>
           {% unless forloop.index == 3 %}
           <hr class="border-gray-3 mt-4 lg:hidden">
           {% endunless %}
