@@ -2,7 +2,7 @@
 title: Command Line and Version Control
 code: missing
 description: Couple lines about the event
-event_date: 2025-04-01
+event_date: 2025-06-01
 image: /assets/images/event.jpg
 categories: ["topic label"]
 speaker: Miklós Koren

@@ -16,5 +16,15 @@ software:
     text: More software
     url: /software/
 
-courses_url: "#"
+datasets:
+  heading: Browse datasets
+  button:
+    text: More datasets
+    url: "#"
+
+publications:
+  heading: Browse publications
+  button:
+    text: More
+    url: "#"
 ---
