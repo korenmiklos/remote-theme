@@ -39,3 +39,15 @@
   @apply bg-red w-7;
 }
 
+.prose table {
+  @apply bg-blue rounded-md text-white overflow-x-auto block whitespace-nowrap;
+}
+.prose table th {
+  @apply text-left text-white px-5 pt-3;
+}
+.prose table td {
+  @apply px-5;
+}
+.prose tbody tr {
+  @apply border-none;
+}

@@ -23,6 +23,7 @@ module.exports = {
         'gray-1': '#5D5A88',
         'gray-2': '#747297', //'#9795B5',
         'gray-3': '#D4D2E3',
+        'gray-4': '#9795B5',
       },
       boxShadow: {
         'dropdown': '4px 10px 35px 0px rgba(151, 149, 181, 0.3)',

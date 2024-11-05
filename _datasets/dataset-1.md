@@ -15,7 +15,7 @@ entities:
 subject:
 - managers
 - germany
-publisher: 
+publisher: Palturai GmbH
 creator: 
 distributor: 
 bibliographicCitation: Palturai, 2024. “BusinessGraph [data set]” Palturai GmbH, Hofheim am Taunus. Available at palturai.com. Last accessed 2024-09-06.
