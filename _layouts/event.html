@@ -6,10 +6,10 @@ layout: default
   <div class="flex flex-col lg:flex-row lg:gap-20 xl:gap-32">
     <div class="lg:w-2/3 xl:w-[60%]">
       <a href="{{ '/events/' | relative_url }}" class="text-red inline-block">&larr; Back to events</a>
-      <h1 class="text-5xl lg:text-6xl text-blue font-bold leading-[1.15] mt-7">{{ page.title }}</h1>
+      <h1 class="text-5xl lg:text-6xl text-blue font-bold leading-[1] lg:leading-[1] mt-7">{{ page.title }}</h1>
       {% assign now = 'now' | date: '%s' %}
       {% assign event_date = page.event_date | date: '%s' %}
-      <div class="aspect-w-16 aspect-h-6 rounded-md overflow-hidden relative mt-8">
+      <div class="aspect-w-16 aspect-h-10 sm:aspect-h-6 rounded-md overflow-hidden relative mt-8">
         <img class="w-full h-full object-center object-cover" src="{{ page.image | absolute_url }}" loading="lazy" alt="{{ page.title | escape }}">
         <div class="absolute top-0 left-0 bottom-0 w-28 flex justify-center items-center flex-col px-3 {% if event_date >= now %}bg-red text-white{% else %}bg-gray-4 text-gray-3{% endif %}">
           <p class="font-bold text-xl uppercase">{{ page.event_date | date: "%b" }}</p>
