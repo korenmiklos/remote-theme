@@ -17,22 +17,6 @@ links:
     url: "#"
   - text: Replication code and data
     url: "#"
-
-
-# credits: 
-# date: 2020-06-01
-# tags: [missing]
-# instructors: [missing]
-# website: https://datacarpentry.org/stata-economics/
-# github: missing
-# moodle: missing
-# video: missing
-# 
-# author: john
 ---
-
-missing
-
-![Lorem](/assets/images/content.jpg)
 
 This is a placeholder for the full course content. You can add more details, syllabus, and other relevant information here.

@@ -1775,6 +1775,14 @@ select {
   left: 0;
 }
 
+.aspect-h-8 {
+  --tw-aspect-h: 8;
+}
+
+.aspect-h-6 {
+  --tw-aspect-h: 6;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2147,6 +2155,13 @@ select {
   -webkit-line-clamp: 15;
 }
 
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 .block {
   display: block;
 }
@@ -2317,6 +2332,10 @@ select {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .min-w-\[6rem\] {
@@ -3017,6 +3036,10 @@ select {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -3223,6 +3246,11 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-3 {
+  --tw-text-opacity: 1;
+  color: rgb(212 210 227 / var(--tw-text-opacity));
 }
 
 .underline {
