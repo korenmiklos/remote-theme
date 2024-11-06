@@ -15,4 +15,3 @@ To start developing:
 
 
 {{ site.data.config[site.website].copyright }}
-
