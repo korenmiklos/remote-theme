@@ -135,7 +135,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: DM Mono,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -2845,6 +2845,11 @@ select {
   padding-right: 2.75rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
@@ -2938,11 +2943,6 @@ select {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-1 {
@@ -3047,6 +3047,10 @@ select {
 
 .text-center {
   text-align: center;
+}
+
+.font-mono {
+  font-family: DM Mono,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas;
 }
 
 .text-2xl {
@@ -3260,6 +3264,11 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-4 {
+  --tw-text-opacity: 1;
+  color: rgb(151 149 181 / var(--tw-text-opacity));
 }
 
 .underline {

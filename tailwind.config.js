@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: "Brockmann,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+        mono: "DM Mono,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas",
       },
       maxWidth: {
         '7xl': '78rem',
@@ -36,3 +37,4 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
   ],
 };
+
