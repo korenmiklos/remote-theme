@@ -4,27 +4,21 @@
 
 @layer base {
   @font-face {
-    font-family: 'Px Grotesk';
-    src: url(../fonts/Px-Grotesk-Light.woff2) format("woff2");
-    font-weight: 300;
-  }
-
-  @font-face {
-    font-family: 'Px Grotesk';
-    src: url(../fonts/Px-Grotesk-Regular.woff2) format("woff2");
+    font-family: 'Brockmann';
+    src: url(../fonts/brockmann-regular.woff2) format("woff2");
     font-weight: 400;
   }
 
   @font-face {
-    font-family: 'Px Grotesk';
-    src: url(../fonts/Px-Grotesk-Regular-Italic.woff2) format("woff2");
+    font-family: 'Brockmann';
+    src: url(../fonts/brockmann-regularitalic.woff2) format("woff2");
     font-weight: 400;
     font-style: italic;
   }
 
   @font-face {
-    font-family: 'Px Grotesk';
-    src: url(../fonts/Px-Grotesk-Bold.woff2) format("woff2");
+    font-family: 'Brockmann';
+    src: url(../fonts/brockmann-bold.woff2) format("woff2");
     font-weight: 700;
   }  
 }

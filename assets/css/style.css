@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Px Grotesk,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-family: Brockmann,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -642,25 +642,17 @@ select {
 }
 
 @font-face {
-  font-family: 'Px Grotesk';
+  font-family: 'Brockmann';
 
-  src: url(../fonts/Px-Grotesk-Light.woff2) format("woff2");
-
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Px Grotesk';
-
-  src: url(../fonts/Px-Grotesk-Regular.woff2) format("woff2");
+  src: url(../fonts/brockmann-regular.woff2) format("woff2");
 
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Px Grotesk';
+  font-family: 'Brockmann';
 
-  src: url(../fonts/Px-Grotesk-Regular-Italic.woff2) format("woff2");
+  src: url(../fonts/brockmann-regularitalic.woff2) format("woff2");
 
   font-weight: 400;
 
@@ -668,9 +660,9 @@ select {
 }
 
 @font-face {
-  font-family: 'Px Grotesk';
+  font-family: 'Brockmann';
 
-  src: url(../fonts/Px-Grotesk-Bold.woff2) format("woff2");
+  src: url(../fonts/brockmann-bold.woff2) format("woff2");
 
   font-weight: 700;
 }
@@ -1775,14 +1767,6 @@ select {
   left: 0;
 }
 
-.aspect-h-8 {
-  --tw-aspect-h: 8;
-}
-
-.aspect-h-6 {
-  --tw-aspect-h: 6;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1960,10 +1944,6 @@ select {
   top: 37%;
 }
 
-.bottom-36 {
-  bottom: 9rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -2011,11 +1991,6 @@ select {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .-mr-6 {
@@ -2150,10 +2125,6 @@ select {
   margin-top: 2.25rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -2161,18 +2132,18 @@ select {
   -webkit-line-clamp: 2;
 }
 
-.line-clamp-\[15\] {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 15;
-}
-
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+.line-clamp-\[15\] {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 15;
 }
 
 .block {
@@ -2295,6 +2266,10 @@ select {
   width: 6rem;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -2345,10 +2320,6 @@ select {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .min-w-\[6rem\] {
@@ -2648,11 +2619,6 @@ select {
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
-.divide-gray-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-opacity: 1;
-  border-color: rgb(151 149 181 / var(--tw-divide-opacity));
-}
-
 .divide-gray-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(212 210 227 / var(--tw-divide-opacity));
@@ -2874,6 +2840,11 @@ select {
   padding-right: 0.375rem;
 }
 
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
@@ -2892,6 +2863,11 @@ select {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .py-0\.5 {
@@ -2944,6 +2920,11 @@ select {
   padding-bottom: 0.75rem;
 }
 
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -2957,31 +2938,6 @@ select {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.px-11 {
-  padding-left: 2.75rem;
-  padding-right: 2.75rem;
 }
 
 .pb-1 {
@@ -3048,6 +3004,10 @@ select {
   padding-top: 0.375rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pt-11 {
   padding-top: 2.75rem;
 }
@@ -3076,24 +3036,12 @@ select {
   padding-top: 2.25rem;
 }
 
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-2xl {
@@ -3254,6 +3202,11 @@ select {
   color: rgb(116 114 151 / var(--tw-text-opacity));
 }
 
+.text-gray-3 {
+  --tw-text-opacity: 1;
+  color: rgb(212 210 227 / var(--tw-text-opacity));
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -3302,16 +3255,6 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-3 {
-  --tw-text-opacity: 1;
-  color: rgb(212 210 227 / var(--tw-text-opacity));
-}
-
-.text-gray-4 {
-  --tw-text-opacity: 1;
-  color: rgb(151 149 181 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -4046,10 +3989,6 @@ select {
 
   .lg\:pt-6 {
     padding-top: 1.5rem;
-  }
-
-  .lg\:pb-28 {
-    padding-bottom: 7rem;
   }
 
   .lg\:text-6xl {
