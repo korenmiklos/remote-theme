@@ -18,7 +18,7 @@ layout: default
             {% if post.description and post.description != empty %}
               <p class="text-lg leading-relaxed text-gray-2 mt-4 max-w-2xl mx-auto line-clamp-2">{{ post.description }}</p>
             {% endif %}
-            <a class="mt-9 text-lg font-bold text-white space-x-2 inline-flex items-center justify-center border border-red bg-red rounded-full py-2.5 px-6 w-full md:w-auto" href="{{ post.url | relative_url }}" {% if post.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
+            <a class="mt-9 text-lg font-bold text-white space-x-2 inline-flex items-center uppercase justify-center border border-red bg-red rounded-full py-2.5 px-6 w-full md:w-auto" href="{{ post.url | relative_url }}" {% if post.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
               <span>View now</span>
               <svg class="flex-none" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9.9043 3.31177L16.2499 9.65742L9.9043 16.0031" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -144,7 +144,7 @@ layout: default
           {% if page.events.copy and page.events.copy != empty %}
             <p class="text-lg leading-relaxed text-gray-2 mt-3.5 max-w-2xl mx-auto">{{ page.events.copy }}</p>
           {% endif %}
-          <a class="mt-8 text-lg font-bold text-white space-x-2 inline-flex items-center justify-center border border-red bg-red rounded-full py-2.5 px-6 w-full md:w-auto" href="{{ page.events.button.url | relative_url }}" {% if page.events.button.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
+          <a class="mt-8 text-lg font-bold text-white space-x-2 inline-flex items-center justify-center uppercase border border-red bg-red rounded-full py-2.5 px-6 w-full md:w-auto" href="{{ page.events.button.url | relative_url }}" {% if page.events.button.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
             <span>{{ page.events.button.text }}</span>
             <svg class="flex-none" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M9.9043 3.31177L16.2499 9.65742L9.9043 16.0031" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -251,7 +251,7 @@ layout: default
         {% if page.software.copy and page.software.copy != empty %}
           <p class="text-lg leading-relaxed text-gray-2 mt-3.5 max-w-2xl mx-auto">{{ page.software.copy }}</p>
         {% endif %}
-        <a class="mt-8 text-lg font-bold text-white space-x-2 inline-flex items-center justify-center border border-red bg-red rounded-full py-2.5 px-6 w-full md:w-auto" href="{{ page.software.button.url | relative_url }}" {% if page.software.button.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
+        <a class="mt-8 text-lg font-bold text-white space-x-2 inline-flex items-center justify-center uppercase border border-red bg-red rounded-full py-2.5 px-6 w-full md:w-auto" href="{{ page.software.button.url | relative_url }}" {% if page.software.button.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
           <span>{{ page.software.button.text }}</span>
           <svg class="flex-none" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9.9043 3.31177L16.2499 9.65742L9.9043 16.0031" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -369,7 +369,7 @@ layout: default
       {% endfor %}
     </div>
     <div class="mt-9 md:mt-20 flex justify-center">
-      <a class="text-lg font-bold text-white space-x-2 inline-flex items-center justify-center border border-red bg-red rounded-full py-2.5 px-6 w-full sm:w-auto" href="{{ page.datasets.button.url }}">
+      <a class="text-lg font-bold text-white space-x-2 inline-flex items-center uppercase justify-center border border-red bg-red rounded-full py-2.5 px-6 w-full sm:w-auto" href="{{ page.datasets.button.url }}">
         <span>{{ page.datasets.button.text }}</span>
         <svg class="flex-none" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.9043 3.31177L16.2499 9.65742L9.9043 16.0031" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -398,7 +398,7 @@ layout: default
       </div>
     {% endfor %}
   </div>
-  <a class="mt-9 text-lg font-bold text-white space-x-2 inline-flex items-center justify-center border border-red bg-red rounded-full py-2.5 px-6 w-full md:hidden" href="{{ page.publications.button.url }}">
+  <a class="mt-9 text-lg font-bold text-white space-x-2 inline-flex items-center justify-center border uppercase border-red bg-red rounded-full py-2.5 px-6 w-full md:hidden" href="{{ page.publications.button.url }}">
     <span>{{ page.publications.button.text }}</span>
     <svg class="flex-none" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M9.9043 3.31177L16.2499 9.65742L9.9043 16.0031" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
