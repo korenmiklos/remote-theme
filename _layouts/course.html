@@ -7,8 +7,9 @@ layout: default
     <div class="lg:w-2/3 xl:w-[60%]">
       <a href="{{ '/' | relative_url }}" class="text-red inline-block">&larr; Back to home</a>
       <h1 class="text-5xl lg:text-6xl text-blue font-bold leading-[1.15] mt-7">{{ page.title }}</h1>
+      {% for user in page.instructors %}
       {% for item in site.data.team %}
-        {% if item.username == page.author %}
+        {% if item.username == user %}
           <div class="flex space-x-2.5 items-center mt-2">
             <img class="rounded w-12 h-auto" src="{{ item.image | absolute_url }}" alt="{{ item.name }}">
             <div>
@@ -18,6 +19,7 @@ layout: default
           </div>
           {% break %}
         {% endif %}
+      {% endfor %}
       {% endfor %}
       <div class="mt-12 prose max-w-none prose-slate prose-headings:font-bold prose-h2:text-red prose-h2:uppercase prose-h2:text-3xl prose-pre:bg-blue prose-img:rounded-md prose-a:text-red hover:prose-a:text-red">
         {{ content }}
