@@ -1,21 +1,21 @@
 <div class="swiper-slide shrink-0">
   <div class="rounded-md bg-blue text-white p-4 h-44 text-[0.9375rem] font-light overflow-x-auto highlight whitespace-nowrap">
 {% if post.language == "stata" %}
-  {% highlight stata %}
-  {{ post.code }}
-  {% endhighlight %}
+{% highlight stata %}
+{{ post.code }}
+{% endhighlight %}
 {% elsif post.language == "julia" %}
-  {% highlight julia %}
-  {{ post.code }}
-  {% endhighlight %}
+{% highlight julia %}
+{{ post.code }}
+{% endhighlight %}
 {% elsif post.language == "python" %}
-  {% highlight python %}
-  {{ post.code }}
-  {% endhighlight %}
+{% highlight python %}
+{{ post.code }}
+{% endhighlight %}
 {% else %}
-  {% highlight python %}
-  {{ post.code }}
-  {% endhighlight %}
+{% highlight python %}
+{{ post.code }}
+{% endhighlight %}
 {% endif %}
 </div>
   <ul class="flex flex-wrap gap-2 mt-5">
