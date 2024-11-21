@@ -1,9 +1,19 @@
 <div class="swiper-slide shrink-0">
   <div class="rounded-md bg-blue text-white p-4 h-44 text-[0.9375rem] font-light overflow-x-auto highlight whitespace-nowrap">
-{% highlight {{page.language}} %}
-{{ post.code }}
-{% endhighlight %}
-  </div>
+{% if page.language == "stata" %}
+  {% highlight stata %}
+  {{ post.code }}
+  {% endhighlight %}
+{% elsif page.language == "julia" %}
+  {% highlight julia %}
+  {{ post.code }}
+  {% endhighlight %}
+{% elsif page.language == "python" %}
+  {% highlight python %}
+  {{ post.code }}
+  {% endhighlight %}
+{% endif %}
+</div>
   <ul class="flex flex-wrap gap-2 mt-5">
     {% for item in post.categories %}
       <li class="uppercase text-xs text-white font-bold bg-blue rounded-sm px-4 py-1.5">{{ item }}</li>
