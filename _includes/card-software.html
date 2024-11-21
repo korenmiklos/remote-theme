@@ -1,14 +1,18 @@
 <div class="swiper-slide shrink-0">
   <div class="rounded-md bg-blue text-white p-4 h-44 text-[0.9375rem] font-light overflow-x-auto highlight whitespace-nowrap">
-{% if page.language == "stata" %}
+{% if post.language == "stata" %}
   {% highlight stata %}
   {{ post.code }}
   {% endhighlight %}
-{% elsif page.language == "julia" %}
+{% elsif post.language == "julia" %}
   {% highlight julia %}
   {{ post.code }}
   {% endhighlight %}
-{% elsif page.language == "python" %}
+{% elsif post.language == "python" %}
+  {% highlight python %}
+  {{ post.code }}
+  {% endhighlight %}
+{% else %}
   {% highlight python %}
   {{ post.code }}
   {% endhighlight %}
