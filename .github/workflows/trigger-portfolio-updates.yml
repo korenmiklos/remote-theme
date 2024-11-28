@@ -30,3 +30,10 @@ jobs:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: korenmiklos/portfolio3
           event-type: update-from-data
+
+      - name: Trigger MACROMANAGERS update
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: korenmiklos/macromanagers.eu
+          event-type: update-from-remote-theme
