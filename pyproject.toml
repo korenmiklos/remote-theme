@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "remote-theme"
+version = "0.1.0"
+description = ""
+authors = ["Miklós Koren <miklos.koren@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pillow = "^11.0.0"
+opencv-python = "^4.10.0.84"
+numpy = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
