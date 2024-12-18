@@ -3,13 +3,13 @@ layout: home-publications
 title: 
 
 hero:
-  superheading: "#publications #lectures"
-  heading: Big title about the content
-  copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis.
+  superheading: ""
+  heading: Managers and development
+  copy: I am interested is the role of managers and entrepreneurs in economic development.
 
 about:
   name: Miklós Koren
-  copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis.
+  copy: Professor of Economics at Central European University, Vienna. Senior Research Fellow at the HUN-REN Centre for Economic and Regional Studies. Data Editor at the Review of Economics Studies.
   image: /assets/images/miklos-koren.jpg
   link:
     text: Read CV

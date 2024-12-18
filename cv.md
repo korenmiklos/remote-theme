@@ -10,7 +10,7 @@ about:
   interests: International trade, growth and development
   image: /assets/images/miklos-koren.jpg
 
-statement: Cool mission statement or quote or motivational sentence.
+statement: I teach reproducible research practices to economists to help them maximize their scientific impact. 
 
 accordion:
 - heading: Current Positions
