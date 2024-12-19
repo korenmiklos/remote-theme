@@ -54,7 +54,7 @@ layout: default
       </svg>
     </div>
     <div class="flex-1 lg:mt-14">
-      <h2 class="text-blue uppercase font-bold text-3xl mb-16">Project team</h2>
+      <h2 class="text-blue uppercase font-bold text-3xl mb-16">Authors</h2>
       <div class="space-y-7">
         {% for person in page.team %}
           {% for item in site.data.team %}
@@ -75,7 +75,7 @@ layout: default
         {% endfor %}
       </div>
       {% if page.grants and page.grants != empty %}
-        <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Grant institute</h2>
+        <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Supported by</h2>
         <div class="space-y-7">
           {% for grant1 in page.grants %}{% for grant2 in site.data.grants %}{% if grant1 == grant2.id %}
           <img class="w-full" src="{{ grant2.logo | absolute_url }}" loading="lazy" alt="{{ grant2.title }}">
@@ -83,7 +83,7 @@ layout: default
           </div>
       {% endif %}
 
-      <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Project Resources</h2>
+      <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Resources</h2>
       <div class="space-y-7">
         {% for item in page.links %}
           <a class="text-lg font-bold text-red space-x-1 flex items-center justify-center border border-red rounded-full py-2.5 px-2 tracking-tight uppercase" href="{{ item.url | relative_url }}" {% if item.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>
