@@ -6,16 +6,10 @@ description: Keys should be human readable, not just machine readable.
 tags:
 categories:
   - data
-author: korenmiklos
+author: koren
 canonical_url: https://dev.to/korenmiklos/choose-great-keys-e2f
 ---
 
----
-title: Choose Great Keys
-published: true
-description: Keys should be human readable, not just machine readable.
-tags: database
----
 Keys are what we use to refer to entities in data tables. A primary key is the unique identifier of each observation in your table, a foreign key is pointing to other entities in another table.
 
 But how do these keys look in real life? Are they consecutively numbering rows from 1? Can we use names of firms and people as keys? Should we use cryptographic hash functions to generate [universally unique identifiers](https://en.wikipedia.org/wiki/Universally_unique_identifier)? Often you will have this decided for you with keys already given in the data store in which you are loading your data. But sometimes you will face the distinct pleasure of choosing your own keys.

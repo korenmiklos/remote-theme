@@ -6,15 +6,8 @@ description: Semantic versioning lets you communicate your promises effectively 
 tags:
 categories:
   - data
-author: korenmiklos
+author: koren
 canonical_url: https://dev.to/korenmiklos/semantic-versioning-for-data-products-296h
----
-
----
-title: Semantic Versioning for Data Products
-published: true
-description: Semantic versioning lets you communicate your promises effectively within your data analysis team.
-tags: semantic versioning,data science,data analysis
 ---
 
 In one of my research projects, I study how Hungarian firms managed by foreign CEOs perform relative to those managed by domestic CEOs. I need to merge data on firm performance to data on manager nationality. This latter data we have collected ourselves in our research lab, based on manager names.

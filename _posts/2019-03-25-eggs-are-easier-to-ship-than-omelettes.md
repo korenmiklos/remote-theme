@@ -6,15 +6,8 @@ description: I estimated the regression model we discussed last week and it didn
 tags:
 categories:
   - data
-author: korenmiklos
+author: koren
 canonical_url: https://dev.to/korenmiklos/eggs-are-easier-to-ship-than-omelettes-1g3g
----
-
----
-title: Eggs Are Easier To Ship Than Omelettes
-published: true
-description: I estimated the regression model we discussed last week and it didn’t work. Which regression model? What do you mean it didn’t work?
-tags: agile, data science team, explorative analysis
 ---
 
 > - I estimated the regression model we discussed last week and it didn’t work.  

@@ -6,15 +6,8 @@ description: How do we know that _this_ David Watts is the same as _that_ David 
 tags:
 categories:
   - data
-author: korenmiklos
+author: koren
 canonical_url: https://dev.to/korenmiklos/wish-i-could-be-like-david-watts-2edp
----
-
----
-title: Wish I Could Be Like David Watts
-published: true
-description: How do we know that _this_ David Watts is the same as _that_ David Watts?
-tags: entity resolution, data quality
 ---
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/ejv1y7jycmflj7isa14k.png)

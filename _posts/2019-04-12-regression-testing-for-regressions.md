@@ -6,15 +6,8 @@ description: How do different samples, data cleaning methods, feature engineerin
 tags:
 categories:
   - data
-author: korenmiklos
+author: koren
 canonical_url: https://dev.to/korenmiklos/regression-testing-for-regressions-5f9j
----
-
----
-title: Regression Testing for Regressions
-published: true
-description: How do different samples, data cleaning methods, feature engineering and statistical algorithms change our estimates?
-tags: data science, statistics, testing
 ---
 
 Ok, this is a confusing title. Both “regression” and “testing” have a formal definition in statistics. And “[regression testing](https://en.wikipedia.org/wiki/Regression_testing)” is a software engineering term for making sure that changes to your code did not introduce any unwanted change in its behavior.

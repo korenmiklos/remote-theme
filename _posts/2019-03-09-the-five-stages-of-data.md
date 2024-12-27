@@ -6,15 +6,8 @@ description: Much as with the five stages of grief, you have to go through all t
 tags:
 categories:
   - data
-author: korenmiklos
+author: koren
 canonical_url: https://dev.to/korenmiklos/the-five-stages-of-data-3dnl
----
-
----
-title: The Five Stages of Data
-published: true
-description: Much as with the five stages of grief, you have to go through all the stages to be at peace with your data in the long run.
-tags: data integration, data pipeline
 ---
 
 Years ago, I was thinking about how data becomes data. What stages does it go through before it becomes usable for analysis? We are relying on the following model daily in our research group.

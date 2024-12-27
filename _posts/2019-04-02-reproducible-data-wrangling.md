@@ -6,16 +6,10 @@ description: For the movements of "reproducible research" and "open data" to cat
 tags:
 categories:
   - data
-author: korenmiklos
+author: koren
 canonical_url: https://dev.to/korenmiklos/reproducible-data-wrangling-24eb
 ---
 
----
-title: Reproducible Data Wrangling
-published: true
-description: For the movements of "reproducible research" and "open data" to catch on, we need more tools to assist. 
-tags: reproducibility, data wrangling
----
 > “I spend more than half of my time integrating, cleansing and transforming data without doing any actual analysis.” (interviewee in the seminal Kandel, Paepcke, Hellerstein and Heer interview study of business analytics practices)
 
 It is almost a *cliché* in data science that we spend the vast majority of our time getting, transforming, merging, or otherwise preparing data for the actual analysis.
