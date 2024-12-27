@@ -3,7 +3,7 @@ import json
 import os
 from pathlib import Path
 
-def download_posts(api_key, username, output_dir='posts'):
+def download_posts(api_key, username,     output_dir='_posts'):
     """
     Download all blog posts from dev.to for a specific user
     
@@ -41,7 +41,9 @@ def download_posts(api_key, username, output_dir='posts'):
     
     # Save each post
     for post in all_posts:
-        filename = f"{post['published_at'][:10]}_{post['slug']}.md"
+        # Remove hash from slug
+        clean_slug = post['slug'].split('-')[:-1]
+        filename = f"{post['published_at'][:10]}-{'-'.join(clean_slug)}.md"
         filepath = os.path.join(output_dir, filename)
         
         # Get full article content
@@ -52,10 +54,19 @@ def download_posts(api_key, username, output_dir='posts'):
         
         # Save post content
         with open(filepath, 'w', encoding='utf-8') as f:
+            # Write single YAML header with combined metadata
             f.write(f"---\n")
             f.write(f"title: {post['title']}\n")
-            f.write(f"published: {post['published_at']}\n")
-            f.write(f"tags: {','.join(post['tags'])}\n")
+            f.write(f"published: true\n")
+            f.write(f"date: {post['published_at']}\n")
+            f.write(f"description: {post.get('description', '')}\n")
+            f.write(f"tags:\n")
+            if 'tags' in post and post['tags']:
+                for tag in post['tags']:
+                    f.write(f"  - {tag}\n")
+            f.write(f"categories:\n")
+            f.write(f"  - data\n")
+            f.write(f"author: {username}\n")
             f.write(f"canonical_url: {post['canonical_url']}\n")
             f.write(f"---\n\n")
             f.write(article['body_markdown'])
