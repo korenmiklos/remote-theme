@@ -95,5 +95,4 @@ I regularly use parallel execution to do Monte Carlo simulations or draw bootstr
 
 Those who still don't like Make? `$< $@` them.
 
-Originally posted on
-{% medium https://medium.com/data-architect/a-love-letter-to-make-933de68bb816 %}
+Originally posted on [Medium](https://medium.com/data-architect/a-love-letter-to-make-933de68bb816).
