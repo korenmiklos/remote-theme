@@ -5,7 +5,7 @@ pdf: "#"
 about:
   name: Miklós Koren
   position: Professor
-  location: Central European University, Department of Economics and Business
+  location: Central European University, Department of Economics
   personal_data: "DOB: 1976, Male, Hungarian citizen"
   interests: International trade, growth and development
   image: /assets/images/miklos-koren.jpg
@@ -16,7 +16,7 @@ accordion:
 - heading: Current Positions
   items: 
   - date: 2016 –
-    copy: "*Professor*, Central European University, Department of Economics and Business"
+    copy: "*Professor*, Central European University, Department of Economics"
   - date: 2017 –
     copy: "*Senior Research Fellow*, Institute of Economics, CERS, HUN-REN"
   - date: 2019 –
