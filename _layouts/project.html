@@ -9,12 +9,7 @@ layout: default
       {% assign date_format = site.date_format | default: "%B %Y" %}
       {{ page.date | date: date_format }}
     </time>
-    <h2 class="text-blue font-normal mt-8 lg:mt-20">Made possible by</h2>
-    <div class="gap-7 grid lg:grid-cols-2 mt-12">
-      {% for grant in page.grants %}
-      <a href="{{ site.data.grants[grant].url | absolute_url }}"><img class="w-full" src="{{ site.data.grants[grant].logo | absolute_url }}" loading="lazy" alt="{{ site.data.grants[grant].title }}"></a>
-      {% endfor %}
-    </div>
+    {% include grants.html %}
     <div class="mt-14 lg:mt-16 prose max-w-none prose-slate prose-headings:font-bold prose-a:text-red hover:prose-a:text-red">
       {{ content }}
     </div>

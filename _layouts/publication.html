@@ -74,14 +74,7 @@ layout: default
           {% endfor %}
         {% endfor %}
       </div>
-      {% if page.grants and page.grants != empty %}
-        <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Supported by</h2>
-        <div class="space-y-7">
-          {% for grant in page.grants %}
-          <a href="{{ site.data.grants[grant].url | absolute_url }}"><img class="w-full" src="{{ site.data.grants[grant].logo | absolute_url }}" loading="lazy" alt="{{ site.data.grants[grant].title }}"></a>
-          {% endfor %}
-            </div>
-      {% endif %}
+      {% include grants.html %}
 
       <h2 class="text-blue uppercase font-bold text-3xl mb-16 mt-24">Resources</h2>
       <div class="space-y-7">
