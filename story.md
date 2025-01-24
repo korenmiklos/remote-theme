@@ -5,7 +5,7 @@ layout: story
 
 hero:
   heading: The Coded Thinking story
-  copy: Economics research and software engineering complement each other in understanding complex data.
+  copy: Economics and software engineering complement each other in understanding complex data.
 
 cards:
 - copy: I always wanted to be both an economist and a programmer. I love how computers can solve all kinds of problems through systematic thinking. Learning software engineering practices has transformed how I do research. Having clear structures in place actually gives me more freedom to explore new ideas.
