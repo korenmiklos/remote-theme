@@ -5,30 +5,15 @@ layout: story
 
 hero:
   heading: The Coded Thinking story
-  copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis.
-
-about:
-  name: Miklós Koren
-  copy: A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis.
-  image: /assets/images/miklos-koren.jpg
-  link:
-    text: Read CV
-    url: /cv/
+  copy: Economics research and software engineering complement each other in understanding complex data.
 
 cards:
-- image: /assets/images/course.jpg
+- copy: I always wanted to be both an economist and a programmer. I love how computers can solve all kinds of problems through systematic thinking. Learning software engineering practices has transformed how I do research. Having clear structures in place actually gives me more freedom to explore new ideas.
+  image: /assets/images/koren-computer.png
+- image: /assets/images/varmilo-keyboard.jpg
   copy: |-
-    A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu.
-
-    A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi.
-- image: /assets/images/course.jpg
+    Software engineering practices make economic research more reproducible and collaborative. They help us work confidently with large datasets while making the research process more systematic and enjoyable.
+- image: /assets/images/marti-et-al.jpg
   copy: |-
-    A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu.
-
-    A little introduction what the reader can find here lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi.
-    
+    I apply these methods in my research and teaching at CEU, helping students combine economic thinking with coding skills. As Data Editor of the Review of Economic Studies, I work with economists to make their research reproducible. Through this website and my software tools in Stata, Python and Julia, I share practical approaches to better research.    
 ---
-
-## Subtitle about the story
-
-Social distancing interventions can be effective against epidemics but are potentially detrimental for the economy. Businesses that rely heavily on face-to-face communication or close physical proximity when producing a product or providing a service are particularly vulnerable. There is, however, no systematic evidence about the role of human interactions across different lines of business and about which will be the most limited by social distancing.
