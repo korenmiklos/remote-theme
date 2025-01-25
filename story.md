@@ -7,6 +7,9 @@ hero:
   heading: The Coded Thinking story
   copy: Economics and software engineering complement each other in understanding complex data.
 
+about:
+  name: Miklós Koren
+
 cards:
 - copy: I always wanted to be both an economist and a programmer. I love how computers can solve all kinds of problems through systematic thinking. Learning software engineering practices has transformed how I do research. Having clear structures in place actually gives me more freedom to explore new ideas.
   image: /assets/images/koren-computer.png
