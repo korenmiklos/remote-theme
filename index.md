@@ -5,7 +5,7 @@ title:
 hero:
   superheading: ""
   heading: Managers and development
-  copy: I am interested is the role of managers and entrepreneurs in economic development.
+  copy: I am interested in the role of managers and entrepreneurs in economic development.
 
 about:
   name: Miklós Koren
