@@ -14,9 +14,12 @@
     "tailwindcss": "latest"
   },
   "scripts": {
-    "dev": "concurrently npm:watch:*",
+    "dev": "concurrently \"npm:watch:tw\" \"npm:watch:jekyll\"",
+    "build": "npm run build:css && bundle exec jekyll build",
+    "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
-    "watch:jekyll": "bundle exec jekyll s --port 4001 --trace"
+    "watch:jekyll": "bundle exec jekyll s --port 4001 --livereload --trace",
+    "clean": "rm -rf _site .jekyll-cache"
   },
   "repository": {
     "type": "git",

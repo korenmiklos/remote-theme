@@ -1,0 +1,26 @@
+{% comment %}
+  Reusable CTA button component
+  
+  Parameters:
+  - text: Button text
+  - url: Button URL
+  - classes: Additional CSS classes (optional)
+  - responsive: Include responsive width classes (default: true)
+{% endcomment %}
+
+{% assign responsive_classes = "w-full md:w-auto" %}
+{% if include.responsive == false %}
+  {% assign responsive_classes = "w-full" %}
+{% endif %}
+
+{% assign margin_classes = "mt-8" %}
+{% if include.classes %}
+  {% assign margin_classes = "" %}
+{% endif %}
+
+<a class="{{ margin_classes }} text-lg font-bold text-white space-x-2 inline-flex items-center justify-center uppercase border border-red bg-red rounded-full py-2.5 px-6 {{ responsive_classes }} {{ include.classes }}" 
+   href="{{ include.url | relative_url }}" 
+   {% if include.url contains 'http' %}target="_blank" rel="noopener"{% endif %}>
+  <span>{{ include.text }}</span>
+  {% include icons/arrow-right.html %}
+</a>

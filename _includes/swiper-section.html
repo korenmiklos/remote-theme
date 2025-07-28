@@ -1,0 +1,81 @@
+{% comment %}
+  Reusable Swiper carousel component
+  
+  Parameters:
+  - swiper_class: CSS class for the swiper container (e.g., "swiper-courses")
+  - collection: Jekyll collection to iterate over (e.g., "site.courses")
+  - limit: Number of items to show (optional)
+  - sort_by: Sort field (optional, default: "date")
+  - card_template: Include template for each card (e.g., "card-course.html")
+  - container_classes: Additional classes for the swiper container (optional)
+  - slides_config: Breakpoint configuration (optional, defaults to standard config)
+  - filter_logic: Custom liquid filter logic (optional)
+{% endcomment %}
+
+{% assign sort_field = include.sort_by | default: "date" %}
+{% assign item_limit = include.limit | default: 6 %}
+{% assign container_classes = include.container_classes | default: "overflow-hidden -mr-6 md:mr-0" %}
+
+<div class="swiper {{ include.swiper_class }} {{ container_classes }}" aria-label="Slider">
+  <div class="swiper-wrapper flex">
+    {% if include.filter_logic %}
+      {{ include.filter_logic }}
+    {% else %}
+      {% assign posts = include.collection | sort: sort_field | reverse %}
+    {% endif %}
+    
+    {% for post in posts limit: item_limit %}
+      {% include {{ include.card_template }} %}
+    {% endfor %}
+  </div>
+  
+  {% unless include.hide_controls %}
+  <div class="flex justify-between items-center mt-12 lg:mt-24 space-x-4 max-w-2xl mx-auto pr-6 sm:pr-0">
+    <div class="swiper-button-prev">
+      {% include icons/arrow-left.html %}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next">
+      {% include icons/arrow-right-nav.html %}
+    </div>
+  </div>
+  {% endunless %}
+  
+  {% unless include.hide_gradient %}
+  <div class="absolute top-0 right-0 bottom-16 w-1/5 bg-gradient-to-r from-transparent to-white/75 sm:hidden"></div>
+  {% endunless %}
+</div>
+
+{% unless include.skip_script %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var {{ include.swiper_class | replace: "-", "_" }} = new Swiper(".{{ include.swiper_class }}", {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+      {% if include.slides_config %}
+        {{ include.slides_config }}
+      {% else %}
+      // Responsive breakpoints
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        }
+      },
+      {% endif %}
+      pagination: {
+        el: ".{{ include.swiper_class }} .swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".{{ include.swiper_class }} .swiper-button-next",
+        prevEl: ".{{ include.swiper_class }} .swiper-button-prev",
+      },
+    });
+  });
+</script>
+{% endunless %}
