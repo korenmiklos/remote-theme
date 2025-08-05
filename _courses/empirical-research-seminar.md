@@ -1,23 +1,25 @@
 ---
-title: Empirical Research Seminar
-code: ECBS6250
-description: This course guides you through the process of empirical research in applied microeconomics, from selecting research ideas and appropriate methods, through collecting data, to submitting your final paper to a journal. We won't talk about these steps, we will do these steps together. Each student and instructor completes a paper during the two terms of the course, which they submit at the end of the course to peer-reviewed journals.
-credits: 
-date: 2024-09-17
-tags: [missing]
-categories: [ceu]
-instructors: [koren]
-website: missing
-github: missing
-moodle: missing
-video: missing
-image: /assets/images/stock/philip-swinburn-vS7LVkPyXJU-unsplash.jpg
 author: koren
+categories:
+- ceu
+code: ECBS6250
+date: 2024-09-17
+description: This course guides you through the process of empirical research in applied
+  microeconomics, from selecting research ideas and appropriate methods, through collecting
+  data, to submitting your final paper to a journal. We won't talk about these steps,
+  we will do these steps together. Each student and instructor completes a paper during
+  the two terms of the course, which they submit at the end of the course to peer-reviewed
+  journals.
+image: /assets/images/stock/philip-swinburn-vS7LVkPyXJU-unsplash.jpg
+instructors:
+- koren
 links:
-  - text: Moodle
-    url: "https://ceulearning.ceu.edu/course/view.php?id=17682"
+- text: Moodle
+  url: https://ceulearning.ceu.edu/course/view.php?id=17682
+tags:
+- missing
+title: Empirical Research Seminar
 ---
-
 This course guides you through the process of empirical research in applied microeconomics, from selecting research ideas and appropriate methods, through collecting data, to submitting your final paper to a journal. We won't talk about these steps, we will do these steps together. Each student and instructor completes a paper during the two terms of the course, which they submit at the end of the course to peer-reviewed journals.
 
 ![Photo by <a href="https://unsplash.com/@pjswinburn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Philip Swinburn</a> on <a href="https://unsplash.com/photos/carving-tool-set-vS7LVkPyXJU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>](/assets/images/stock/philip-swinburn-vS7LVkPyXJU-unsplash.jpg)

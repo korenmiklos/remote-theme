@@ -1,15 +1,13 @@
 ---
-title: Everything is a Function
-published: true
-date: 2019-03-12T17:40:06.875Z
-description: Procedural programming comes natural to scientists, because it reads like a precise protocol for an experiment. But everything in data analysis is a function.
-tags:
-categories:
-  - data
 author: korenmiklos
-canonical_url: https://dev.to/korenmiklos/everything-is-a-function-4171
+categories:
+- data
+date: 2019-03-12 17:40:06.875000+00:00
+description: Procedural programming comes natural to scientists, because it reads
+  like a precise protocol for an experiment. But everything in data analysis is a
+  function.
+title: Everything is a Function
 ---
-
 Most scientists start programming in a [procedural style](https://en.wikipedia.org/wiki/Procedural_programming). I certainly did. Procedural programming comes natural to scientists, because it reads like a precise [protocol](https://www.protocols.io/) for an experiment. _Do this_. _Then do that_.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*5UdOie2kHbfcSgd51cZmoA.jpeg)

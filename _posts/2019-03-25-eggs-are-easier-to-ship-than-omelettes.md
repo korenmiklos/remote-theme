@@ -1,15 +1,12 @@
 ---
-title: Eggs Are Easier To Ship Than Omelettes
-published: true
-date: 2019-03-25T09:17:34.352Z
-description: I estimated the regression model we discussed last week and it didn’t work. Which regression model? What do you mean it didn’t work?
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/eggs-are-easier-to-ship-than-omelettes-1g3g
+categories:
+- data
+date: 2019-03-25 09:17:34.352000+00:00
+description: I estimated the regression model we discussed last week and it didn’t
+  work. Which regression model? What do you mean it didn’t work?
+title: Eggs Are Easier To Ship Than Omelettes
 ---
-
 > - I estimated the regression model we discussed last week and it didn’t work.  
 > - Which regression model? What do you mean it didn’t work?
 

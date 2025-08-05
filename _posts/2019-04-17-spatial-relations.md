@@ -1,15 +1,11 @@
 ---
-title: Spatial Relations
-published: true
-date: 2019-04-17T07:54:46.587Z
-description: Start seeing the world in points, lines, and polygons.
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/spatial-relations-5e5f
+categories:
+- data
+date: 2019-04-17 07:54:46.587000+00:00
+description: Start seeing the world in points, lines, and polygons.
+title: Spatial Relations
 ---
-
 Measurements often have a spatial dimension. If [thinking about time intervals](https://dev.to/korenmiklos/spells-221a) feels complicated, welcome to [__spatial relations__](https://en.wikipedia.org/wiki/Spatial_relation). Where in time there are only points and intervals, there are many more different types of objects in space and many more different relations. An observation may be related to a point, such as a sensor, a line, such as a river or a highway, or an area (often called _polygon_ in spatial analysis) such as a city.
 
 ![Photo by Fleur Treurniet on Unsplash](https://cdn-images-1.medium.com/max/1600/0*AvKFJTeB8sPSxG5Q)

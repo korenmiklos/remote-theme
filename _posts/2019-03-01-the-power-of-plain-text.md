@@ -1,15 +1,12 @@
 ---
-title: The Power of Plain Text
-published: true
-date: 2019-03-01T20:26:39.390Z
-description: I believe portability and ease of exploration beats a tight schema-conforming database any time. 
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/the-power-of-plain-text-1gb4
+categories:
+- data
+date: 2019-03-01 20:26:39.390000+00:00
+description: I believe portability and ease of exploration beats a tight schema-conforming
+  database any time.
+title: The Power of Plain Text
 ---
-
 I sometimes get excited by binary file formats for storing data. A couple of years ago it was [HDF5](https://www.hdfgroup.org/solutions/hdf5/). Now [Apache Parquet](https://parquet.apache.org/) looks pretty promising. But most of my data work, especially if I share it with others, is stored in just simple, plain text.
 
 > I believe portability and ease of exploration beats a tight schema-conforming database any time.

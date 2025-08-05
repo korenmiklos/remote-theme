@@ -1,15 +1,12 @@
 ---
-title: The Tupperware Approach to Coding
-published: true
-date: 2019-03-05T21:29:12.824Z
-description: A tree structure is effective to organize the information you have to keep in your head if you optimize between small and few.
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/the-tupperware-approach-to-coding-1g74
+categories:
+- data
+date: 2019-03-05 21:29:12.824000+00:00
+description: A tree structure is effective to organize the information you have to
+  keep in your head if you optimize between small and few.
+title: The Tupperware Approach to Coding
 ---
-
 Coding is like ultra running. It is a huge, often daunting task. If you don’t want to go crazy, you have to break it into smaller chunks. _Before lunch, I will finish this function. At the next aid station, I have to refill my water bottles._
 
 Dividing the problem into many small, manageable chunks is one way to deal with complex problems. But if you split the problem into too small chunks, you will end with too many of them. Again you will feel overwhelmed.

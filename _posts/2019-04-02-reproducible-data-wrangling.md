@@ -1,15 +1,12 @@
 ---
-title: Reproducible Data Wrangling
-published: true
-date: 2019-04-02T19:06:18.397Z
-description: For the movements of "reproducible research" and "open data" to catch on, we need more tools to assist. 
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/reproducible-data-wrangling-24eb
+categories:
+- data
+date: 2019-04-02 19:06:18.397000+00:00
+description: For the movements of "reproducible research" and "open data" to catch
+  on, we need more tools to assist.
+title: Reproducible Data Wrangling
 ---
-
 > “I spend more than half of my time integrating, cleansing and transforming data without doing any actual analysis.” (interviewee in the seminal Kandel, Paepcke, Hellerstein and Heer interview study of business analytics practices)
 
 It is almost a *cliché* in data science that we spend the vast majority of our time getting, transforming, merging, or otherwise preparing data for the actual analysis.

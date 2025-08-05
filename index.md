@@ -1,44 +1,41 @@
 ---
-layout: home-publications
-title: 
-
-hero:
-  superheading: ""
-  heading: Managers and development
-  copy: I am interested in the role of managers and entrepreneurs in economic development.
-
 about:
-  name: Miklós Koren
-  copy: Professor of Economics at Central European University, Vienna. Senior Research Fellow at the HUN-REN Centre for Economic and Regional Studies. Data Editor at the Review of Economics Studies.
+  copy: Professor of Economics at Central European University, Vienna. Senior Research
+    Fellow at the HUN-REN Centre for Economic and Regional Studies. Data Editor at
+    the Review of Economics Studies.
   image: /assets/images/miklos-koren.jpg
   link:
     text: Read CV
     url: /cv/
-
+  name: Miklós Koren
 blocks:
 - block: cards
   cards:
-  - heading: Ready to get started?
-    copy: Morbi eget neque vel turpis turpis lacinia lacinia eget neque lacinia. 
+  - button:
+      text: Learn more
+      url: /getting-started/
+    copy: Morbi eget neque vel turpis turpis lacinia lacinia eget neque lacinia.
+    heading: Ready to get started?
     icon: thin-rocket
-    button:
+  - button:
       text: Learn more
-      url: "/getting-started/"
-  - heading: New to platform?
-    copy: Morbi eget neque vel turpis turpis lacinia lacinia eget neque lacinia. 
+      url: /getting-started/
+    copy: Morbi eget neque vel turpis turpis lacinia lacinia eget neque lacinia.
+    heading: New to platform?
     icon: thin-academic-cap
-    button:
-      text: Learn more
-      url: "/getting-started/"
-
 - block: navigation
-
 - block: cta
-  heading: Ready to get started?
-  copy: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque.
-  icon: thin-rocket
   button:
     text: Get started
-    url: "/getting-started/"
-
+    url: /getting-started/
+  copy: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia
+    eget neque vel turpis lacinia eget vel turpis lacinia eget neque vel turpis lacinia
+    lacinia eget neque.
+  heading: Ready to get started?
+  icon: thin-rocket
+hero:
+  copy: I am interested in the role of managers and entrepreneurs in economic development.
+  heading: Managers and development
+  superheading: ''
+layout: home-publications
 ---
