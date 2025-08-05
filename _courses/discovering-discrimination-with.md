@@ -1,21 +1,22 @@
 ---
-title: Discovering Discrimination with Data
-code: ECBS5400
-description: This course is an immersive simulation game using the statistical concepts learned earlier to argue about patterns of gender discrimination in the workplace. The focus is on interpreting and communicating data analysis results rather than performing statistical calculations. Various assignments, including readings, essays, and presentations, reinforce the learned concepts.
-credits: 
-date: 2025-01-01
-tags: [missing]
-categories: [ceu]
-instructors: [koren,csoka]
-website: missing
-github: missing
-moodle: missing
-video: missing
-image: /assets/images/course.jpg
 author: john
-links:
+categories:
+- ceu
+code: ECBS5400
+date: 2025-01-01
+description: This course is an immersive simulation game using the statistical concepts
+  learned earlier to argue about patterns of gender discrimination in the workplace.
+  The focus is on interpreting and communicating data analysis results rather than
+  performing statistical calculations. Various assignments, including readings, essays,
+  and presentations, reinforce the learned concepts.
+image: /assets/images/course.jpg
+instructors:
+- koren
+- csoka
+tags:
+- missing
+title: Discovering Discrimination with Data
 ---
-
 ## Learn Statistics Through a Real-World Legal Drama
 
 ![Lorem](/assets/images/content.jpg)

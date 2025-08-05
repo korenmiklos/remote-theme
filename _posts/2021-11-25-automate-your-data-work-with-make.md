@@ -1,15 +1,12 @@
 ---
-title: Automate Your Data Work With Make
-published: true
-date: 2021-11-25T15:41:43.407Z
-description: I like to think that you can remain productive over 40. Make is 43 this year and it is still my tool...
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/automate-your-data-work-with-make-5eha
+categories:
+- data
+date: 2021-11-25 15:41:43.407000+00:00
+description: I like to think that you can remain productive over 40. Make is 43 this
+  year and it is still my tool...
+title: Automate Your Data Work With Make
 ---
-
 I like to think that you can remain productive over 40. [Make](https://en.wikipedia.org/wiki/Make_(software)) is 43 this year and it is still my tool of choice to automate my data cleaning or data analysis. It is versatile and beautifully simple. (At first.) Yet, [in a recent survey](https://gist.github.com/csokaimola/219911140de94e01851cc621f50ea794), we found that less than 5 percent of data savvy economists use Make regularly.
 
 ## What is Make?

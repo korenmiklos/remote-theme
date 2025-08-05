@@ -1,15 +1,11 @@
 ---
-title: Wish I Could Be Like David Watts
-published: true
-date: 2019-04-23T19:30:31.286Z
-description: How do we know that _this_ David Watts is the same as _that_ David Watts?
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/wish-i-could-be-like-david-watts-2edp
+categories:
+- data
+date: 2019-04-23 19:30:31.286000+00:00
+description: How do we know that _this_ David Watts is the same as _that_ David Watts?
+title: Wish I Could Be Like David Watts
 ---
-
 ![](https://thepracticaldev.s3.amazonaws.com/i/ejv1y7jycmflj7isa14k.png)
 
 Which David Watts? Names are not unique and we want to [use keys instead](https://medium.com/data-architect/choose-great-keys-d9ebe0485ec5). But how does David Watts become `P-12345678`? More importantly, how do we know that _this_ David Watts is the same as _that_ David Watts?

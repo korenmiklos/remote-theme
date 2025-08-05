@@ -1,15 +1,12 @@
 ---
-title: Semantic Versioning for Data Products
-published: true
-date: 2019-02-27T06:35:40.902Z
-description: Semantic versioning lets you communicate your promises effectively within your data analysis team.
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/semantic-versioning-for-data-products-296h
+categories:
+- data
+date: 2019-02-27 06:35:40.902000+00:00
+description: Semantic versioning lets you communicate your promises effectively within
+  your data analysis team.
+title: Semantic Versioning for Data Products
 ---
-
 In one of my research projects, I study how Hungarian firms managed by foreign CEOs perform relative to those managed by domestic CEOs. I need to merge data on firm performance to data on manager nationality. This latter data we have collected ourselves in our research lab, based on manager names.
 
 I recently noticed a data fluke that made us classify some Hungarian names in the early 1990s as foreign. Once found, it was relatively easy to fix. Now I want to make sure that my team uses the newer, better data product for manager nationality as opposed to the old one.

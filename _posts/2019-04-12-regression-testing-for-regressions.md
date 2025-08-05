@@ -1,15 +1,12 @@
 ---
-title: Regression Testing for Regressions
-published: true
-date: 2019-04-12T15:55:49.674Z
-description: How do different samples, data cleaning methods, feature engineering and statistical algorithms change our estimates?
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://dev.to/korenmiklos/regression-testing-for-regressions-5f9j
+categories:
+- data
+date: 2019-04-12 15:55:49.674000+00:00
+description: How do different samples, data cleaning methods, feature engineering
+  and statistical algorithms change our estimates?
+title: Regression Testing for Regressions
 ---
-
 Ok, this is a confusing title. Both “regression” and “testing” have a formal definition in statistics. And “[regression testing](https://en.wikipedia.org/wiki/Regression_testing)” is a software engineering term for making sure that changes to your code did not introduce any unwanted change in its behavior.
 
 As data scientists, we engage in regression testing all the time. Suppose I estimated that, in Hungarian manufacturing firms between 1992 and 2014, foreign managers improve firm productivity by 15 percent relative to domestic managers. Then the vendor sends an additional year’s worth of data. The first thing I want to check is how my estimate changes. Or we come up with a new algorithm to disambiguate manager names. How do the results change?

@@ -1,29 +1,26 @@
 ---
-title: Reproducible Research from Day One
-code: missing
-description: missing
-credits: 
-date: 2023-08-26
-tags: [missing]
-categories: [dataeditor]
-instructors: [missing]
-website: missing
-github: missing
-moodle: missing
-video: missing
-image: /assets/images/course.jpg
 author: john
+categories:
+- dataeditor
+code: missing
+date: 2023-08-26
+description: missing
+image: /assets/images/course.jpg
+instructors:
+- missing
 links:
-  - text: Full text (open access, HTML)
-    url: "#"
-  - text: Full text (open access, PDF)
-    url: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0239113&type=printable"
-  - text: VoxEU column
-    url: "#"
-  - text: Replication code and data
-    url: "#"
+- text: Full text (open access, HTML)
+  url: '#'
+- text: Full text (open access, PDF)
+  url: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0239113&type=printable
+- text: VoxEU column
+  url: '#'
+- text: Replication code and data
+  url: '#'
+tags:
+- missing
+title: Reproducible Research from Day One
 ---
-
 missing
 
 ![Lorem](/assets/images/content.jpg)

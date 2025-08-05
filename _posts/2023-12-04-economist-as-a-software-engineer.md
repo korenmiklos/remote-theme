@@ -1,15 +1,11 @@
 ---
-title: The Economist as a Software Engineer
-published: true
-date: 2023-12-04T15:41:43.407Z
-description: What best practices we can learn from software engineers?
-tags:
-categories:
-  - data
 author: koren
-canonical_url: https://medium.com/ceu-economic-threads/the-economist-as-a-software-engineer-a1acb1b5ad97
+categories:
+- data
+date: 2023-12-04 15:41:43.407000+00:00
+description: What best practices we can learn from software engineers?
+title: The Economist as a Software Engineer
 ---
-
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*BLKWg5zgH2-vp9rD)
 
 Photo by Bernd 📷 Dittrich on Unsplash

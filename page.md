@@ -1,10 +1,9 @@
 ---
 layout: page
+subtitle: Morbi eget neque vel turpis vel turpis lacinia lacinia eget neque vel turpis
+  lacinia lacinia eget neque vel turpis lacinia lacinia eget neque eget.
 title: Terms and Conditions
-description: 
-subtitle: Morbi eget neque vel turpis vel turpis lacinia lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia lacinia eget neque eget.
 ---
-
 ## Introduction
 
 Welcome to Xyz Limited!
