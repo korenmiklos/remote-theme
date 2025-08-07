@@ -113,3 +113,20 @@ The codebase has been refactored for better maintainability with these reusable 
 {% include button-white.html text="Learn More" url="/courses/" %}
 {% include swiper-section.html swiper_class="swiper-courses" collection=site.courses card_template="card-course.html" %}
 ```
+
+## URL Generation for Multi-Site Configuration
+
+The site uses dynamic URL generation for different site modes (publications, courses, blog). URLs are constructed using:
+
+```liquid
+{{ site.data.config[site.website].url }}{{ page.url }}
+```
+
+This pattern is used in:
+- Dataset citation URLs in `_layouts/dataset.html`
+- Cross-site linking where absolute URLs are needed
+
+The configuration supports:
+- Publications: https://koren.mk
+- Courses: https://koren.dev  
+- Blog: https://codedthinking.com
