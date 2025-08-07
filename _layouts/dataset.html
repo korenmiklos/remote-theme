@@ -61,7 +61,7 @@ layout: default
 
       {% if page.bibliographicCitation and page.bibliographicCitation != empty %}
         <h3 class="mt-6 text-slate-600 font-bold">Data citation</h3>
-        <p class="text-slate-600 leading-normal">{{ page.bibliographicCitation }}</p>
+        <p class="text-slate-600 leading-normal">{{ page.bibliographicCitation }} Available at: {{ page.url | absolute_url }}</p>
       {% endif %}
       {% if page.rights and page.rights != empty %}
         <h3 class="mt-6 text-slate-600 font-bold">License</h3>
