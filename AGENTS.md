@@ -1,6 +1,67 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code and AI agents when working with code in this repository.
+
+## Writing Style Guide
+
+When writing blog posts or documentation for this site, follow these style characteristics observed in the author's existing posts:
+
+### Voice and Tone
+- Direct, conversational, accessible academic voice
+- Use first person ("I") when sharing personal experiences
+- Use second person ("you") to engage reader directly
+- Balance technical precision with readability
+
+### Sentence Structure
+- **Short, declarative sentences for emphasis**: "Coding is like ultra running." "Strange, because if you think about it, everything in data analysis is a function." "Finding good looking keys is fun."
+- **Rhetorical questions to engage reader**: "But how do these keys look in real life?" "What is the API of a data product?" "So why am I a big fan of plain text data despite all these problems?"
+- **Block quotes for key takeaways**: Use `>` for pullout quotes that summarize main arguments, e.g., "> I believe portability and ease of exploration beats a tight schema-conforming database any time."
+
+### Paragraph Organization
+- Start with concrete examples or personal anecdotes
+- Lead with the practical problem before theoretical explanation
+- Use transitional headers as questions: "What's wrong with this?" "How does this work in practice?"
+
+### Technical Content Style
+- **Show, don't just tell**: Include code examples, data tables, concrete examples (e.g., the food CSV example in semantic versioning)
+- **Real-world examples**: Use authentic scenarios from research ("Hungarian firms managed by foreign CEOs", "Belváros-Lipótváros Budapest Főváros V. kerület Polgármesteri Hivatal")
+- **Analogies from everyday life**: Running ultras, Tupperware, eggs vs omelettes, time organization
+
+### Humor and Cultural References
+- Inject dry humor: "deep fried mars bar" as example, "Hungover Ltd." as company name
+- Reference pop culture when relevant: Kinks song "David Watts" as blog title
+- Include parenthetical asides: "(true story)", "(Mind you, I am not working in a bank. Or health care.)"
+
+### Educational Approach
+- **Build from simple to complex**: Start with obvious problems, then reveal deeper issues
+- **Acknowledge reader intelligence**: "Do not just repeat what is in the table or the figure. You don't want to insult your coworker's intelligence."
+- **Call to action**: End with practical next steps or encouragement: "Go out and have some.", "Nurture your code with the same love you nurture your calendar."
+
+### Structural Elements
+- Use numbered or bulleted lists for actionable advice
+- Include relevant images with proper attribution
+- Use code blocks with language specification
+- Add explanatory notes in blockquotes (e.g., "> **Why June 21?**")
+
+### Key Phrases and Patterns
+- Imperative mood for recommendations: "Enter semantic versioning", "Automate all the data cleaning", "Join late", "Share your intermediate data products"
+- Parallel structure in lists: "What deliverables have I completed? What did I learn? What actions do I need from you? What are my next steps?"
+- Rhetorical setup: "Er, what?" to express confusion at complicated code
+
+### Technical Writing Standards
+- Define terms on first use
+- Link to relevant resources and papers
+- Cite sources appropriately (Joel Spolsky, Jenny Bryan, Uncle Bob Martin)
+- Use bold for emphasis on key concepts
+- Prefer active voice: "I think" over "It is thought"
+
+### Sentence Examples for Reference
+- Opening hooks: "In one of my research projects, I study how Hungarian firms managed by foreign CEOs perform relative to those managed by domestic CEOs."
+- Practical transitions: "So what is the right level of abstraction? What is small enough? How many are few enough?"
+- Authoritative statements: "For data analysis, we almost exclusively write code that does not require user interaction and would be well suited to the functional paradigm."
+- Conversational asides: "(By the way, `X\Y` is a better way to write this in Julia.)"
+
+## Project Overview
 
 ## Project Overview
 
