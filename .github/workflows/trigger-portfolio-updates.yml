@@ -4,36 +4,52 @@ name: Trigger Portfolio Updates
 on:
   push:
     branches:
-      - main  # or your default branch name
+      - main
+
+permissions:
+  contents: read
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger portfolio1 update
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: codedthinking
+          repositories: |
+            koren.mk
+            koren.dev
+            codedthinking.com
+            macromanagers.eu
+
+      - name: Trigger koren.mk update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: korenmiklos/portfolio1
+          token: ${{ steps.app-token.outputs.token }}
+          repository: codedthinking/koren.mk
           event-type: update-from-data
 
-      - name: Trigger portfolio2 update
+      - name: Trigger koren.dev update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: korenmiklos/portfolio2
+          token: ${{ steps.app-token.outputs.token }}
+          repository: codedthinking/koren.dev
           event-type: update-from-data
 
-      - name: Trigger portfolio3 update
+      - name: Trigger codedthinking.com update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: korenmiklos/portfolio3
+          token: ${{ steps.app-token.outputs.token }}
+          repository: codedthinking/codedthinking.com
           event-type: update-from-data
 
-      - name: Trigger MACROMANAGERS update
+      - name: Trigger macromanagers.eu update
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: korenmiklos/macromanagers.eu
+          token: ${{ steps.app-token.outputs.token }}
+          repository: codedthinking/macromanagers.eu
           event-type: update-from-remote-theme
