@@ -161,7 +161,7 @@ contact:
   - Department of Economics and Business
   - Quellenstrasse 51, 1100 Vienna, Austria
   - "Phone: [+43 1 25 230 2212](tel:+431252302212) (office)"
-  - "E-mail: [korenm@ceu.edu](mailto:korenm@ceu.edu)"
+  - "E-mail: [miklos@koren.work](mailto:miklos@koren.work)"
   - "Website: [http://koren.mk/](http://koren.mk/)"
 ---
 
