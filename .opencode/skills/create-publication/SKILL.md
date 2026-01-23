@@ -31,9 +31,19 @@ title: "Paper Title"
 date: "YYYY-MM-DD"
 tags:
   - working  # or: published
+  - macromanagers  # optional: for papers linked to macromanagers.eu
 description: "Abstract text"
 ---
 ```
+
+## Tags
+
+Publications should have at least one status tag:
+- `working` - Working papers, preprints, or under review
+- `published` - Published in a journal or conference
+
+Optional tags:
+- `macromanagers` - Papers that should be featured on macromanagers.eu (typically related to the ERC Advanced Grant MACROMGR project)
 
 ## Body content
 
