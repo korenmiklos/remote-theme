@@ -14,10 +14,12 @@ Location: `_data/team.csv`
 CSV format with columns:
 - `username` - Unique identifier (kebab-case, used in publications)
 - `name` - Full name with proper diacritics
-- `affiliation` - Institution/organization
+- `affiliation` - Primary institution/organization (displayed on publication pages)
 - `title` - Academic or professional title
 - `url` - Personal website or profile URL
 - `image` - Path to profile photo (local or external URL)
+
+**Important**: The `affiliation` field is displayed on publication detail pages under each author's name, so it should be the primary institution readers would want to know (e.g., "CEU", "LSE", "Bielefeld University and IfW Kiel").
 
 ## Profile photo requirements
 
@@ -71,9 +73,11 @@ When replacing broken external URLs (Google Sites, etc.), always download and sa
 
 Edit `_data/team.csv` to update:
 - Name (ensure proper diacritics)
-- Affiliation
+- Affiliation (primary institution - this is shown on publication pages)
 - Title (e.g., "Professor", "Associate Professor", "PhD Candidate")
 - URL
+
+**Note**: Since affiliation is displayed on publication detail pages, ensure it accurately represents the person's current primary institution.
 
 ### Replace broken photo URL
 
@@ -121,6 +125,13 @@ smith,John Smith,University Name,Assistant Professor,https://johnsmith.com,/asse
 - **Proper diacritics** - Ensure names use correct special characters
 - **Consistent titles** - Use standard academic titles
 
+## Display on website
+
+- **Publication pages**: Shows author name (linked) and affiliation
+- **Team/About pages**: May show name, title, affiliation, and photo
+
+The affiliation field is particularly important as it appears prominently on publication detail pages.
+
 ## Verification checklist
 
 - [ ] Photo is 320x320 pixels
@@ -128,5 +139,6 @@ smith,John Smith,University Name,Assistant Professor,https://johnsmith.com,/asse
 - [ ] Photo uses local path in CSV
 - [ ] All CSV fields are filled correctly
 - [ ] Name has proper diacritics
+- [ ] Affiliation is current primary institution
 - [ ] Title is appropriate and consistent
 - [ ] Changes committed to git
