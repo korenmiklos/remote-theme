@@ -18,9 +18,7 @@ accordion:
   - date: 2016 –
     copy: "*Professor*, Central European University, Department of Economics"
   - date: 2017 –
-    copy: "*Senior Research Fellow*, Institute of Economics, CERS, HUN-REN"
-  - date: 2019 –
-    copy: "*Data Editor*, Review of Economic Studies"
+    copy: "*Senior Research Fellow*, Institute of Economics, CERS, ELTE"
 
 - heading: Education
   items: 
@@ -93,6 +91,8 @@ accordion_2:
 
 - heading: Past Positions
   items:
+  - date: 2019 – 2025
+    copy: "*Data Editor*, Review of Economic Studies"
   - date: 2016 – 2018
     copy: "*Head of Department*, Central European University, Department of Economics, Budapest, Hungary"
   - date: 2012 – 2016
