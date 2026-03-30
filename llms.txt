@@ -1,0 +1,48 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+This is a {{ site.website }} website built with Jekyll.
+{% if site.publications.size > 0 and site.website == "publications" %}
+
+## Publications
+{% for pub in site.publications -%}
+- [{{ pub.title }}]({{ site.data.config[site.website].url }}{{ pub.url }}){% if pub.cite %}: {{ pub.cite }}{% endif %}
+{% endfor -%}
+{% endif -%}
+
+{% if site.courses.size > 0 and site.website == "courses" %}
+
+## Courses
+{% for course in site.courses -%}
+- [{{ course.title }}]({{ site.data.config[site.website].url }}{{ course.url }}){% if course.description %}: {{ course.description }}{% endif %}
+{% endfor -%}
+{% endif -%}
+
+{% if site.posts.size > 0 and site.website == "blog" %}
+
+## Blog Posts
+{% for post in site.posts -%}
+- [{{ post.title }}]({{ site.data.config[site.website].url }}{{ post.url }}){% if post.description %}: {{ post.description }}{% endif %}
+{% endfor -%}
+{% endif -%}
+
+{% if site.datasets.size > 0 %}
+
+## Datasets
+{% for dataset in site.datasets -%}
+- [{{ dataset.title }}]({{ site.data.config[site.website].url }}{{ dataset.url }}){% if dataset.description %}: {{ dataset.description }}{% endif %}
+{% endfor -%}
+{% endif -%}
+
+{% if site.events.size > 0 %}
+
+## Events
+{% for event in site.events -%}
+- [{{ event.title }}]({{ site.data.config[site.website].url }}{{ event.url }}){% if event.description %}: {{ event.description }}{% endif %}
+{% endfor -%}
+{% endif -%}
