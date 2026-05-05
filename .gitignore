@@ -9,3 +9,4 @@ vendor/
 # OS or Editor folders
 .DS_Store
 node_modules
+_events/background/
