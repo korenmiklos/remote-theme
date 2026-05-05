@@ -1,6 +1,0 @@
-Conferences, talks, hackathons update 2026-03-11
-
-2026-02-24, Ericsson, Presenting our work Vibe Coding Kills Open Source
-2026-02-26, hackathon,results: https://codedthinking.github.io/hackathon-courses/
-2026-03-25, Practical AI podcast "Vibe Coding Kills Open Source" (ez később fog kijönni, ekkor vesszük fel, majd módosítjuk az időpontot)
-2026-03-27, Ericsson, online, Presenting our work Vibe Coding Kills Open Source, automatic online presentation of our work Vibe Coding Kills Open Source
