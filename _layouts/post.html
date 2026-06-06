@@ -2,6 +2,11 @@
 layout: default
 ---
 
+{% if page.image %}
+<div class="w-full h-64 md:h-96 lg:h-[32rem] overflow-hidden">
+  <img class="w-full h-full object-cover object-center" src="{{ page.image | absolute_url }}" loading="lazy" alt="{{ page.image_caption | default: page.title | escape }}">
+</div>
+{% endif %}
 <div class="mx-auto max-w-7xl px-6 lg:px-8 pt-11 pb-24 lg:pt-14 lg:pb-40 relative">
   <div class="flex flex-col lg:flex-row gap-20 xl:gap-32 relative">
     <div class="lg:w-2/3 xl:w-[60%]">
