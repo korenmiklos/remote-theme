@@ -1,5 +1,5 @@
 ---
-title: Do LLMs Know What Jake Knows?
+title: Do LLMs Know More than a Grumpy Old Gas Station Attendant?
 published: true
 date: 2026-06-06
 description: LLMs don't have a theory of mind. Theory of mind is very human. It means, in layman's terms, that you can imagine others hold different believes and follow a logical plan; just not yours.
@@ -31,11 +31,9 @@ My test exploits the fact that the Hungarian language doesn't have gender pronou
 
 The following very short story describes, in Hungarian, the arrival of a female Harley-Davidson rider to a gas station at night. How will LLMs translate this passage?
 
-```
-Lydia fölnézett a csillagos égre. Imádta, ha a hosszú haja lobog utána a szélben, de ezen a vidéken még nem járt, és nem akart ujjat húzni a helyi rendőrökkel. Minden tincsét gondosan a sisakja alá gyűrte. Megnyugtatta a Harleyjának dörmögése. Nem gépként, hanem érző lényként gondolt rá, akkor is, amikor lehúzodott az útról és begurult a kúthoz, hogy tankoljon.
-
-Jake a motorzúgásra ébredt. Gyakran elaludt a pénztár mögött. Fáradt volt már ehhez a munkához. Végigsimította a szakállát és ránézett a biztonsági kamera képére. Semmit nem látott a motor fényétől, ami pont a kamerába világított. "Istenem" - mormogott - "legalább a motorját leállíthatta volna."
-```
+> Lydia fölnézett a csillagos égre. Imádta, ha a hosszú haja lobog utána a szélben, de ezen a vidéken még nem járt, és nem akart ujjat húzni a helyi rendőrökkel. Minden tincsét gondosan a sisakja alá gyűrte. Megnyugtatta a Harleyjának dörmögése. Nem gépként, hanem érző lényként gondolt rá, akkor is, amikor lehúzodott az útról és begurult a kúthoz, hogy tankoljon.
+> 
+> Jake a motorzúgásra ébredt. Gyakran elaludt a pénztár mögött. Fáradt volt már ehhez a munkához. Végigsimította a szakállát és ránézett a biztonsági kamera képére. Semmit nem látott a motor fényétől, ami pont a kamerába világított. "Istenem" - mormogott - "legalább a motorját leállíthatta volna."
 
 Guessing Lydia's gender from the name and the context is easy. I put enough gendered signals in the first paragraph: the protagonist's name is Lydia, she has long hair, and she expresses feelings about her Harley. I assume LLMs will have no trouble writing her as a she, even though she rides a Harley.
 
@@ -50,7 +48,8 @@ The reader knows Lydia is a woman. Jake does not. A good translation therefore h
 I used the neutral exclamation `Istenem` ("My God") rather than a gendered insult. This avoids giving the model a cheap lexical clue in Jake's line. The prompt was exactly this:
 
 ```
-Translate the following story into English. No questions or commentary, just give me the text in English.
+Translate the following story into English. No questions or commentary, 
+just give me the text in English.
 ```
 
 I ran the experiment through the chat interface of OpenRouter on June 6, 2026, selecting current models.
@@ -128,8 +127,6 @@ Pope Leo XIV puts the point more grandly in *Magnifica Humanitas*: we should res
 
 We may not know its importance now, but we will see it when we get there.
 
-See also: <https://www.agidefinition.ai/?utm_source=substack&utm_medium=email>
-
 ## Further reading:
 
 - Hu, Jennifer, Felix Sosa, and Tomer Ullman. 2025. "Re-evaluating Theory of Mind Evaluation in Large Language Models." <https://arxiv.org/abs/2502.21098>
@@ -141,4 +138,4 @@ See also: <https://www.agidefinition.ai/?utm_source=substack&utm_medium=email>
 
 ## The experiment script
 
-https://gist.github.com/korenmiklos/9b05a5b73c66c74dd865abe5bb1b230e
+![The single .py file running the whole experiment](https://gist.github.com/korenmiklos/9b05a5b73c66c74dd865abe5bb1b230e)
