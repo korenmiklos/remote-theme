@@ -3,13 +3,14 @@ title: Do LLMs Know More than a Grumpy Old Gas Station Attendant?
 published: true
 date: 2026-06-06
 description: LLMs don't have a theory of mind. Theory of mind is very human. It means, in layman's terms, that you can imagine others hold different believes and follow a logical plan; just not yours.
-image: https://koren.dev/assets/images/Gemini_Generated_Image_14duvr14duvr14du.png
 image_caption: Do LLMs know more than a grumpy old gas station attendant?
 tags:
 categories:
   - ai
 author: koren
 ---
+
+![An AI generated image in cyberpunk style with a humanoid robot in a leather jacket is resting in an armchair in a computer lab. A thought bubble appears above its head with sheep in neon colors.](https://koren.dev/assets/images/Gemini_Generated_Image_14duvr14duvr14du.png)
 
 On December 9, 2025, I participated in a panel discussion about AI organized by the Hungarian Society for Economics. I used a personal example to illustrate a difference between humans and LLMs. The anecdote was old, peculiar, and $n=1$, so I recently tried to reproduce it more systematically.
 
@@ -138,4 +139,4 @@ We may not know its importance now, but we will see it when we get there.
 
 ## The experiment script
 
-![The single .py file running the whole experiment](https://gist.github.com/korenmiklos/9b05a5b73c66c74dd865abe5bb1b230e)
+[The single .py file running the whole experiment](https://gist.github.com/korenmiklos/9b05a5b73c66c74dd865abe5bb1b230e)
