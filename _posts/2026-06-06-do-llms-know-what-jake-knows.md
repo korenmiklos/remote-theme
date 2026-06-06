@@ -1,8 +1,8 @@
 ---
 title: Do LLMs Know What Jake Knows?
 published: true
-date: 2026-06-06T12:00:00.000Z
-description: LLMs have a theory of mind. Theory of mind is very human. It means, in layman's terms, that you can imagine others hold different believes and follow a logical plan; just not yours.
+date: 2026-06-06
+description: LLMs don't have a theory of mind. Theory of mind is very human. It means, in layman's terms, that you can imagine others hold different believes and follow a logical plan; just not yours.
 image: https://koren.dev/assets/images/Gemini_Generated_Image_14duvr14duvr14du.png
 image_caption: Do LLMs know more than a grumpy old gas station attendant?
 tags:
