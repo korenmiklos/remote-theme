@@ -133,6 +133,8 @@ accordion_2:
 
 - heading: Honors, Scholarships, and Fellowships
   items:
+  - date: 2026
+    copy: "CEU Research Excellence Award, Central European University"
   - date: 2020
     copy: "Ordinary Member, Academia Europaea"
   - date: 2014
